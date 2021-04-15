@@ -11228,6 +11228,12 @@ iframe.zoid-component-frame{
   font-size: 1em;
 }
 
+@media only screen and (max-width:589px){
+  .about-top p {
+    line-height: 35px;
+  }
+}
+
 {% comment %} ABOUT hello {% endcomment %}
 
 .about-hello {
@@ -11259,6 +11265,7 @@ iframe.zoid-component-frame{
   box-shadow: 0px 8px 14px 8px #00000014;
   border-radius: 10px;
   padding-bottom: 50px;
+  background-color: #fff;
 }
 
 .about-concept {
@@ -11300,7 +11307,215 @@ iframe.zoid-component-frame{
   margin: 0;
 }
 
+@media only screen and (max-width:589px){
+  .about-hello {
+    flex-direction: column-reverse;
+  }
+
+  .about-hello-image {
+    position: relative;
+  }
+
+  .about-hello-card {
+    position: absolute;
+    top: 90%;
+    z-index: 1;
+  }
+}
+
+{% comment %} SPICE SYRUP CURRY 共通 {% endcomment %}
+
+.syrup-or-curry-switch ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #DF8800;
+  height: 49px;
+}
+
+.syrup-or-curry-switch ul li:first-of-type {
+  margin-right: 20px;
+}
+
+.syrup-or-curry-switch ul li a {
+  padding: 10px 20px;
+  display: block;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+}
+
+.nav-active a {
+  background-color: #DF8800;
+  border: 1px solid #DF8800;
+  color: #fff;
+}
+
+.nav-not-active a {
+  border-top: 1px solid #DF8800;
+  border-right: 1px solid #DF8800;
+  border-left: 1px solid #DF8800;;
+}
+
+@media only screen and (max-width:589px){
+  {% comment %} 前の要素でabsoluteを指定すると前の要素に重なってしまうので、marginを指定 {% endcomment %}
+  .syrup {
+    margin: 800px 0;
+  }
+
+  .syrup-or-curry-switch ul {
+    width: 80%;
+  }
+}
+
 {% comment %} SPICE SYRUP {% endcomment %}
+.syrup p {
+  line-height: 35px;
+}
+
+.syrup-title {
+  text-align: center;
+  margin: 75px 0;
+}
+
+.syrup-title h2 {
+  font-size: 55px;
+  font-weight: 900;
+  margin: 0;
+  line-height: 55px;
+}
+
+@media only screen and (max-width:589px){
+  .syrup-title {
+    margin: 30px 0;
+  }
+
+  .syrup-title h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+{% comment %} feature共通サブタイトル {% endcomment %}
+.syrup-subtitle {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.syrup-subtitle p {
+  margin: 0;
+  text-align: center;
+}
+
+.syrup-number {
+  border-right: 2px solid #ADADAD;
+  padding-right: 15px;
+}
+
+.syrup-number p {
+  font-weight: bold;
+  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+}
+.feature {
+  font-size: 14px;
+}
+.number {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.syrup-subtitle-text {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.syrup-subtitle-text p{
+  font-size: 40px;
+  line-height: 35px;
+  padding-left: 15px;
+}
+
+@media only screen and (max-width:589px){
+  .feature {
+    font-size: 10px;
+  }
+
+  .number {
+    font-size: 30px;
+  }
+
+  .syrup-subtitle {
+    margin-bottom: 30px;
+  }
+  
+
+  .syrup-subtitle-text p {
+    font-size: 25px;
+  }
+}
+
+{% comment %} feature共通　コンテンツ内容 {% endcomment %}
+.feature-flex {
+  display: flex;
+}
+
+.feature-pc-left,
+.feature-pc-right {
+  flex: 1;
+}
+
+.feature-pc-left img,
+.feature-pc-right img {
+  width: 95%;
+}
+
+.feature-center {
+  text-align: center;
+}
+
+.feature-line-text {
+  font-weight: bold;
+  font-size: 1.5em;
+  background: linear-gradient(transparent 75%, #F7C600 75%);
+  display: inline-block;
+}
+
+.caption-bold {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.syrup span {
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width:589px){
+  .feature-flex {
+    flex-direction: column;
+  }
+
+  .feature-center p {
+    text-align: left;
+  }
+
+  .feature-line-text {
+    font-size: 1em;
+  }
+
+  .caption-bold {
+    font-size: 1em;
+  }
+
+  .br-pc-none {
+    display: none;
+  }
+}
+
+{% comment %} feature01 {% endcomment %}
+.image01 {
+  margin-bottom: 50px;
+}
+
 
 
 {% comment %} ABOUT 終了 {% endcomment %}
