@@ -1,0 +1,35 @@
+<div id="textsection">
+  <div class="simpletext">
+    <h1> {{ section.settings.text-box }} </h1>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "page-title-about",
+    "settings": [
+      {
+        "id": "text-box",
+        "type": "text",
+        "label": "Heading",
+        "default": "ABOUT"
+      },
+      {
+        "type": "select",
+        "id": "text_align",
+        "label": "Text alignment",
+         "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Centered"
+          }
+        ]
+      }
+    ]
+  }
+  
+{% endschema %}

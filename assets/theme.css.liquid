@@ -11311,19 +11311,13 @@ iframe.zoid-component-frame{
   .about-hello {
     flex-direction: column-reverse;
   }
-
-  .about-hello-image {
-    position: relative;
-  }
-
-  .about-hello-card {
-    position: absolute;
-    top: 90%;
-    z-index: 1;
-  }
 }
 
 {% comment %} SPICE SYRUP CURRY 共通 {% endcomment %}
+.spice-container {
+  width: 90%;
+  margin: 0 auto;
+}
 
 .syrup-or-curry-switch ul {
   list-style: none;
@@ -11357,13 +11351,8 @@ iframe.zoid-component-frame{
 }
 
 @media only screen and (max-width:589px){
-  {% comment %} 前の要素でabsoluteを指定すると前の要素に重なってしまうので、marginを指定 {% endcomment %}
-  .syrup {
-    margin: 800px 0;
-  }
-
   .syrup-or-curry-switch ul {
-    width: 80%;
+    display: block;
   }
 }
 
@@ -11409,7 +11398,7 @@ iframe.zoid-component-frame{
 .syrup-number {
   border-right: 2px solid #ADADAD;
   padding-right: 15px;
-}
+} 
 
 .syrup-number p {
   font-weight: bold;
@@ -11463,11 +11452,6 @@ iframe.zoid-component-frame{
   flex: 1;
 }
 
-.feature-pc-left img,
-.feature-pc-right img {
-  width: 95%;
-}
-
 .feature-center {
   text-align: center;
 }
@@ -11479,7 +11463,8 @@ iframe.zoid-component-frame{
   display: inline-block;
 }
 
-.caption-bold {
+.caption-bold,
+.text-bold {
   font-weight: bold;
   font-size: 1.2em;
 }
@@ -11502,7 +11487,8 @@ iframe.zoid-component-frame{
     font-size: 1em;
   }
 
-  .caption-bold {
+  .caption-bold,
+  .text-bold{
     font-size: 1em;
   }
 
@@ -11512,8 +11498,27 @@ iframe.zoid-component-frame{
 }
 
 {% comment %} feature01 {% endcomment %}
-.image01 {
+.image01,
+.image02{
+  width: 95%;
+}
+
+.image02 {
   margin-bottom: 50px;
+}
+
+.image03 {
+  width: 70%;
+}
+
+@media only screen and (max-width:589px){
+  .image02 {
+    margin-bottom: 0px;
+  }
+
+  .image03 {
+    width: 100%;
+  }
 }
 
 
