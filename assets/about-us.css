@@ -1,5 +1,5 @@
+/* ABOUT top  */ 
 
-/* ABOUT top  */
 .page-title {
   text-align: center;
 }
@@ -137,14 +137,18 @@
 }
 
 @media only screen and (max-width:589px){
+  .syrup-or-curry-switch {
+    width: 90%;
+  }
+
   .syrup-or-curry-switch ul {
-    display: block;
+    height: 75px;
   }
 }
 
 /* SPICE SYRUP */
 .syrup p {
-  line-height: 35px;
+  line-height: 30px;
 }
 
 .syrup-title {
@@ -173,7 +177,7 @@
 /* feature共通サブタイトル */
 .syrup-subtitle {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .syrup-subtitle p {
@@ -224,26 +228,36 @@
   
 
   .syrup-subtitle-text p {
-    font-size: 25px;
+    font-size: 20px;
+    text-align: left;
   }
 }
 /* feature共通　コンテンツ内容 */
 .feature-flex {
   display: flex;
+  justify-content: space-between;
 }
 
 .feature-pc-left,
 .feature-pc-right {
-  flex: 1;
+  width: 48.5%;
 }
 
 .feature-center {
   text-align: center;
 }
 
+.feature-margin-bottom {
+  margin-bottom: 80px;
+}
+
+.feature-text {
+  font-size: 0.95em;
+}
+
 .feature-line-text {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
   background: linear-gradient(transparent 75%, #F7C600 75%);
   display: inline-block;
 }
@@ -258,18 +272,30 @@
   font-weight: bold;
 }
 
+.br-pc-none {
+  display: none;
+}
 
 @media only screen and (max-width:589px){
   .feature-flex {
     flex-direction: column;
   }
 
+  .feature-pc-left,
+  .feature-pc-right {
+    width: 100%;
+  }
+
   .feature-center p {
     text-align: left;
   }
 
+  .feature-margin-bottom {
+    margin-bottom: 40px;
+  }
+
   .feature-line-text {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   .caption-bold,
@@ -277,27 +303,27 @@
     font-size: 1em;
   }
 
-  .br-pc-none {
+  .br-sp-none {
     display: none;
+  }
+
+  .feature-sp-margin {
+    margin-bottom: 50px;
+  }
+
+  .br-pc-none {
+    display: block;
   }
 }
 
 /* feature01  */
-.image01-1,
-.image01-2-pc{
-  width: 95%;
-}
-
-.image01-2-pc {
-  margin-bottom: 50px;
-}
-
 .image01-2-sp {
   display: none;
 }
 
 .image01-3 {
-  width: 70%;
+  width: 55%;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width:589px){
@@ -307,11 +333,18 @@
   
   .image01-2-sp {
     display: block;
+    margin-bottom: 20px;
   }
 
   .image01-3 {
     width: 100%;
+    margin-bottom: 20px;
   }
+}
+
+/* feature02  */
+.feature-02-margin {
+  margin-bottom: 30px;
 }
 
 /* ABOUT 終了 */

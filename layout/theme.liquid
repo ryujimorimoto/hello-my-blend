@@ -79,7 +79,7 @@
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
   {%- if template == 'page.about-us' -%}
-    <link rel="stylesheet" href="{{ 'about-us.css' | asset_url | split: '?' | first }}">
+    {{'about-us.css' | asset_url | stylesheet_tag}}
   {%- endif -%}
   {%- if template == 'page.about-us' -%}
     <script src="{{ 'about-us.js' | shopify_asset_url }}" defer="defer"></script>
