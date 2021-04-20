@@ -243,6 +243,16 @@
   width: 48.5%;
 }
 
+.feature-pc-2column {
+  width: 65%;
+}
+
+.feature-pc-1column {
+  width: 32%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .feature-center {
   text-align: center;
 }
@@ -282,7 +292,10 @@
   }
 
   .feature-pc-left,
-  .feature-pc-right {
+  .feature-pc-right,
+  .feature-pc-2column,
+  .feature-pc-1column
+   {
     width: 100%;
   }
 
@@ -316,6 +329,32 @@
   }
 }
 
+/* ボーダータイトル */
+.about-border-title {
+  display: flex;
+  align-items: center;
+  color: #DF8800;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+  margin-bottom: 20px;
+}
+
+.about-border-title::before,
+.about-border-title::after {
+  border-top: 1px solid #DF8800;
+  content:"";
+  flex-grow: 1;
+}
+
+.about-border-title::before {
+  margin-right: 1rem;
+}
+
+.about-border-title::after {
+  margin-left: 1rem;
+}
+
 /* feature01  */
 .image01-2-sp {
   display: none;
@@ -346,5 +385,38 @@
 .feature-02-margin {
   margin-bottom: 30px;
 }
+
+/* feature03 */
+.image03-5-sp {
+  display: none;
+}
+
+.about-youtube {
+  text-align: center;
+}
+
+.about-youtube p {
+  margin: 30px 0;
+}
+
+.about-youtube-btn {
+  box-sizing: border-box;
+  border: 2px solid #ADADAD;
+  padding: 20px 120px;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+@media only screen and (max-width:589px){
+  .image03-5-pc {
+    display: none;
+  }
+
+  .image03-5-sp {
+    display: block;
+  }
+}
+
 
 /* ABOUT 終了 */
