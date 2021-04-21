@@ -47,7 +47,6 @@
     }
   {%- endif -%}
 {%- endstyle -%}
-
 <div data-section-id="{{ section.id }}" data-section-type="header-section">
   <div class="header-wrapper{% if overlay_header %} header-wrapper--overlay is-light{% endif %}">
 
@@ -160,33 +159,36 @@
       </div>
     </header>
   </div>
-  {%- assign blog = blogs["info"] -%}
-  {%- assign article = blog.articles.first -%}
-  <div class="header-wrapper text-center display-pc">
-    <table style="background:none;width: 75%;margin-left: auto;margin-right: 20px;" class="border-top-custom">
-      <tbody>
-      <tr>
-        <td></td>
-        <th>NEWS</th>
-        <td>{{ article.created_at | date: "%Y/%m/%d" }}</td>
-        <td><a href="{{article.url}}">{{ article.title | truncate: 50, '...' }}</a></td>
-        <td></td>
-        <td></td>
-        <td class="text-center"><a href="{{blog.url}}" style="text-decoration: underline;">VIEW ALL</a></td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="header-wrapper text-center display-sp">
-    <table style="background:none;" class="border-top-custom">
-      <tbody>
-      <tr>
-        <th><span class="rounded-black">NEWS</span></th>
-        <td><a href="{{article.url}}">{{ article.title | truncate: 30, '...' }}</a></td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
+  {%- if template == 'index' -%}
+
+    {%- assign blog = blogs["info"] -%}
+    {%- assign article = blog.articles.first -%}
+    <div class="header-wrapper text-center display-pc">
+      <table style="background:none;width: 75%;margin-left: auto;margin-right: 20px;" class="border-top-custom">
+        <tbody>
+        <tr>
+          <td></td>
+          <th>NEWS</th>
+          <td>{{ article.created_at | date: "%Y/%m/%d" }}</td>
+          <td><a href="{{article.url}}">{{ article.title | truncate: 50, '...' }}</a></td>
+          <td></td>
+          <td></td>
+          <td class="text-center"><a href="{{blog.url}}" style="text-decoration: underline;">VIEW ALL</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="header-wrapper text-center display-sp">
+      <table style="background:none;" class="border-top-custom">
+        <tbody>
+        <tr>
+          <th><span class="rounded-black">NEWS</span></th>
+          <td><a href="{{article.url}}">{{ article.title | truncate: 30, '...' }}</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  {%- endif -%}
 </div>
 
 {%- if template_name == 'index' and section.settings.sticky_index -%}
