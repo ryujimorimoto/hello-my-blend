@@ -25,6 +25,8 @@
 .about-hello {
   text-align: center;
   display: flex;
+  width: 90%;
+  margin: 0 auto 180px;
 }
 
 .about-hello-logo {
@@ -86,16 +88,92 @@
   font-weight: bold;
 }
 
-/* 画像調整あとで */
+.about-hello-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .about-hello-image {
-  width: 75%;
-  height: 75%;
-  margin: 0;
+  width: 650px;
+}
+
+@media only screen and (min-width: 590px) and (max-width:1000px) {
+  .about-hello-card h3,
+  .about-hello-card p {
+    font-size: 0.95em;
+  }
 }
 
 @media only screen and (max-width:589px){
   .about-hello {
     flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about-hello {
+    width: 100%;
+    position: relative;
+  }
+
+  .about-hello-card {
+    width: 90%;
+  }
+
+  .about-hello-card {
+    position: absolute;
+    top: 90%;
+    z-index: 1;
+  }
+
+  .about-hello-card h3,
+  .about-hello-card p {
+    font-size: 0.95em;
+  }
+}
+
+/* SPICE SYRUP CURRY タブ */
+.tab-group {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  border-bottom: 1px solid #DF8800;
+  margin: 0;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: 1px solid #DF8800;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  font-weight: bold;
+}
+
+.tab:first-of-type {
+  margin-right: 20px;
+}
+
+.panel {
+  display: none;
+}
+
+.tab.is-active {
+  background-color: #DF8800;
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+
+.panel.is-show {
+  display: block;
+}
+
+@media only screen and (max-width:589px){
+  .tab {
+    font-size: 14px;
+    padding: 5px 20px;
   }
 }
 
@@ -105,45 +183,24 @@
   margin: 0 auto;
 }
 
-.syrup-or-curry-switch ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  border-bottom: 1px solid #DF8800;
-  height: 49px;
-}
-
-.syrup-or-curry-switch ul li:first-of-type {
-  margin-right: 20px;
-}
-
-.syrup-or-curry-switch ul li a {
-  padding: 10px 20px;
-  display: block;
-  font-weight: bold;
-  border-radius: 10px 10px 0 0;
-}
-
-.nav-active a {
-  background-color: #DF8800;
-  border: 1px solid #DF8800;
-  color: #fff;
-}
-
-.nav-not-active a {
-  border-top: 1px solid #DF8800;
-  border-right: 1px solid #DF8800;
-  border-left: 1px solid #DF8800;;
+.br-pc-none {
+  display: none;
 }
 
 @media only screen and (max-width:589px){
   .syrup-or-curry-switch {
-    width: 90%;
+    /* absoluteの良い回避方法が見つかったら変更 */
+    margin-top: 900px;
   }
 
-  .syrup-or-curry-switch ul {
-    height: 75px;
+  .br-pc-none {
+    display: block;
   }
+
+  .br-sp-none {
+    display: none;
+  }
+
 }
 
 /* SPICE SYRUP */
@@ -213,6 +270,21 @@
   padding-left: 15px;
 }
 
+@media only screen and (min-width: 590px) and (max-width:1000px) {
+  .feature {
+    font-size: 12px;
+  }
+
+  .number {
+    font-size: 38px;
+  }
+
+  .syrup-subtitle-text p {
+    font-size: 30px;
+    text-align: left;
+  }
+}
+
 @media only screen and (max-width:589px){
   .feature {
     font-size: 10px;
@@ -268,7 +340,7 @@
 .feature-line-text {
   font-weight: bold;
   font-size: 1.3em;
-  background: linear-gradient(transparent 75%, #F7C600 75%);
+  background: linear-gradient(transparent 70%, #F7C600 70%);
   display: inline-block;
 }
 
@@ -280,10 +352,6 @@
 
 .syrup span {
   font-weight: bold;
-}
-
-.br-pc-none {
-  display: none;
 }
 
 @media only screen and (max-width:589px){
@@ -307,25 +375,21 @@
     margin-bottom: 40px;
   }
 
+  .feature-text {
+    font-size: 0.8em;
+  }
+
   .feature-line-text {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
   .caption-bold,
   .text-bold{
-    font-size: 1em;
-  }
-
-  .br-sp-none {
-    display: none;
+    font-size: 0.8em;
   }
 
   .feature-sp-margin {
     margin-bottom: 50px;
-  }
-
-  .br-pc-none {
-    display: block;
   }
 }
 
@@ -418,5 +482,22 @@
   }
 }
 
+/* voices */
+.about-voices {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.about-voices p {
+  margin-bottom: 35px;
+}
+
+@media only screen and (max-width:589px){
+  .about-voices {
+    width: 100%;
+    padding-bottom: 80px;
+  }
+}
 
 /* ABOUT 終了 */
