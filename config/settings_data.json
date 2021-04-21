@@ -1,1 +1,1548 @@
-{"current":{"color_borders":"#f0f1f3","color_button":"#111111","color_button_text":"#ffffff","color_footer":"#f0f1f3","color_footer_text":"#2c2c2c","color_drawer_background":"#ffffff","color_drawer_text":"#000000","color_drawer_border":"#f0f1f3","color_drawer_button":"#111111","color_drawer_button_text":"#ffffff","color_modal_overlays":"#aeb1b8","color_image_2":"#000000","color_image_2_opacity":0,"color_image_1":"#000000","color_image_1_opacity":26,"color_small_image_bg":"#ffffff","color_large_image_bg":"#dedfe1","type_header_font_family":"chivo_n4","type_header_spacing":"50","type_header_base_size":34,"type_header_line_height":1.8,"type_header_accent_transform":true,"type_base_font_family":"neuzeit_office_n4","type_base_spacing":"25","type_base_size":16,"type_base_line_height":1.7,"type_base_accent_transform":true,"icon_weight":"2px","icon_linecaps":"round","animate_page_transitions":true,"animate_page_transition_style":"page-slide-reveal-down","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"fade-in","animate_buttons":true,"animate_underlines":true,"quick_shop_text":"Quick view","cart_type":"drawer","social_facebook_link":"https:\/\/www.facebook.com\/HelloMyBlend","social_twitter_link":"https:\/\/twitter.com\/blend_my","social_instagram_link":"http:\/\/instagram.com\/hello_my_blend","social_youtube_link":"https:\/\/www.youtube.com\/channel\/UCuQc7-2uwkWPsdkikffA6bw\/featured","share_facebook":true,"share_twitter":true,"share_pinterest":true,"favicon":"shopify:\/\/shop_images\/logo2.png","show_breadcrumbs":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","breadcrumb":true,"color_input":"#ffffff","checkout_banner_background_color":"#ffffff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","blocks":{"0dbd541f-9969-46fa-a8a3-d4c2ef0d7d4d":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/logo_yoko.png","desktop_logo_width":200,"mobile_logo_width":140}}},"block_order":["0dbd541f-9969-46fa-a8a3-d4c2ef0d7d4d"],"settings":{"main_menu_link_list":"main-menu","main_menu_alignment":"left-center","header_style":"normal","sticky_index":false,"sticky_collection":false,"type_navigation_size":18,"type_navigation_style":false,"show_announcement":true,"announcement_text":"Free shipping and returns","announcement_closable":false}},"footer":{"type":"footer","blocks":{"1494292481350":{"type":"logo_social","settings":{"desktop_logo_height":50,"container_width":20}},"1494301487049":{"type":"menu","settings":{"show_footer_title":true,"menu":"footer","container_width":20}},"1494292485313":{"type":"menu","settings":{"show_footer_title":true,"menu":"main-menu","container_width":20}},"1494292487693":{"type":"newsletter","settings":{"show_footer_title":true,"title":"Sign up and save","richtext":"<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>","container_width":33}}},"block_order":["1494292481350","1494301487049","1494292485313","1494292487693"],"settings":{"show_locale_selector":true,"show_currency_selector":true,"show_currency_flags":true,"show_payment_icons":false,"colorize_payment_icons":false,"show_copyright":false,"copyright_text":""}},"collection-template":{"type":"collection-template","settings":{"collection_image_enable":true,"collection_image_height":550,"parallax":true,"description_position":"top","collection_subnav_style":"inline","collection_tags_style":"inline","collection_sort_enable":true,"per_row":4,"mobile_flush_grid":false}},"product-template":{"type":"product-template","settings":{"social_enable":true,"image_size":"medium"}},"article-template":{"type":"article-template","settings":{"blog_show_image":true,"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false,"social_sharing_blog":true}},"1498163293234":{"type":"featured-content","disabled":true,"settings":{"title":"たくさんの人に楽しんでもらえる、安心で美味しい商品を届けられないか…。","text":"<p> 考え抜いた末、行き着いた答えは、「一人ひとりに作り手になってもらおう！」でした。 <\/p>","align_text":"left","narrow_column":true,"enlarge_text":false,"divider":false}},"1498501481980":{"type":"fading-images","blocks":{"1498501481980-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/DSC00003.jpg","focal_point":"20% 50%","slide_title1":"保存料・着色料不使用。","slide_title2":"手作りの美味しさ。"}},"1498501481980-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/IMG_5805.jpg","focal_point":"center center","slide_title1":"キャンプ飯・ホットドリンクに。","slide_title2":"スパイスシロップ。"}},"1498501481980-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/DSC00635.png","focal_point":"center center","slide_title1":"自分で作るかんたんキット。","slide_title2":""}}},"block_order":["1498501481980-0","1498501481980-1","1498501481980-2"],"settings":{"title_lines":"2","title_font":"body","title_size":32,"title_color":"#ffffff","title_bg_color":"rgba(0,0,0,0)","text_align":"vertical-center horizontal-center","slide_speed":5,"color_overlay":"#000000","color_overlay_opacity":20,"desktop_height":"650px","mobile_height":"auto"}},"blog-template":{"type":"blog-template","settings":{"blog_show_tag_filter":true,"blog_show_rss":false,"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false}},"1566999869051":{"type":"featured-collection-switcher","settings":{"title":"MOST POPULAR","collection1":"手作りキット-シロップ","collection2":"","per_row":4,"view_all":true,"divider":false}},"1499789718857":{"type":"featured-collections","disabled":true,"blocks":{"1499789718857-2":{"type":"collection","settings":{"collection":"","focal_point":"center center","size":"square-small"}},"1499789718857-3":{"type":"collection","settings":{"collection":"","focal_point":"center center","size":"square-small"}},"1499789718857-4":{"type":"collection","settings":{"collection":"","focal_point":"center center","size":"square-small"}},"1499789718857-5":{"type":"collection","settings":{"collection":"","focal_point":"center center","size":"wide"}}},"block_order":["1499789718857-2","1499789718857-3","1499789718857-4","1499789718857-5"],"settings":{"title":"","divider":false,"enable_gutter":false}},"1499790633921":{"type":"background-image-text","settings":{"subtitle":"アレンジレシピ","title":"かんたんモクテル","text":"<p>HELLO MY BLENDのジンジャーシロップを使えば、スパイスの効いたオリジナルドリンクもかんたんに作れます。<\/p>","button_label":"","image":"shopify:\/\/shop_images\/DSC00022.jpg","focal_point":"20% 50%","layout":"left","height":750,"parallax":true}},"1499790731541":{"type":"collection-callout","disabled":true,"settings":{"collection":"","subtitle":"Brand new","title":"Collection callout","text":"Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.","cta_text1":"Shop Jackets","cta_text2":"Shop All","layout":"right","divider":false}},"footer-promotions":{"type":"footer-promotions","settings":{"hide_homepage":true,"image_size":"wide","align_text":"left"}},"newsletter-popup":{"type":"newsletter-popup","settings":{"mode":"disabled","popup_seconds":5,"popup_days":30,"popup_title":"Sign up and save","popup_text":"<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>","close_text":"No thanks","enable_newsletter":true,"button_label":"Optional button","enable_button":false}},"list-collections-template":{"type":"list-collections-template","blocks":{"f189a4df-8921-4e66-a4b9-67decf195ece":{"type":"collection","settings":{"collection":"手作りキット"}},"fc2918dd-08d0-42b8-bf3b-d3557e71932a":{"type":"collection","settings":{"collection":"手作りキット-シロップ"}},"59229def-5a67-4530-9a3f-6e864e3e7323":{"type":"collection","settings":{"collection":"frontpage"}}},"block_order":["f189a4df-8921-4e66-a4b9-67decf195ece","fc2918dd-08d0-42b8-bf3b-d3557e71932a","59229def-5a67-4530-9a3f-6e864e3e7323"],"settings":{"title_enable":true,"display_type":"selected","sort":"alphabetical","grid":"3"}},"1611293707ea6d294a":{"type":"blog-posts","settings":{"title":"","blog":"レシピ","post_limit":3,"blog_show_tags":false,"blog_show_date":true,"blog_show_comments":false,"blog_show_author":false,"view_all":true,"divider":false}},"16115545459fbcbb47":{"type":"advanced-content","disabled":true,"blocks":{"16115545459fbcbb47-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/soda.jpg","link":"shopify:\/\/pages\/about-us","width":"66%","alignment":"center"}},"16115545459fbcbb47-1":{"type":"html","settings":{"code":"<a href=\"https:\/\/goodthewhat.myshopify.com\/pages\/about-us\"><h2 style=\"font-size: 1.5em;\">HELLO MY BLENDって？<\/h2>\n<p>ハローマイブレンドは、スパイスとハーブを使ったフードクラフトキットのブランドです。<br>もっと詳しく知りたい方はこちら！５分でわかるHELLO MY BLENDについて。<\/p><\/a>","width":"33%","alignment":"center"}}},"block_order":["16115545459fbcbb47-0","16115545459fbcbb47-1"],"settings":{"full_width":false,"space_around":true}},"16178605870ca1cae8":{"type":"advanced-content","blocks":{"16178605870ca1cae8-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/forsns_1.png","width":"100%","alignment":"top-middle"}},"530857a9-4d06-4674-ab65-a5d7f86810f2":{"type":"html","settings":{"code":"<div class=\"toppage-card\">\n  <div class=\"display-sp toppage-header\">\n    <span class=\"toppage-check-icon-sp\">CHECK!<\/span>\n    <a href=\"\/pages\/about-us\" class=\"h4\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/arrow-img.png?v=1617879589\" class=\"img-arrow-sp\"><\/a>\n  <\/div>\n  <div class=\"row\">\n    <div class=\"toppage-card--image\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/DSC00022.jpg?v=1613727650\" alt=\"\">\n    <\/div>\n    <div class=\"toppage-card--text\">\n      <a href=\"\/pages\/about-us\" class=\"display-pc h1\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/arrow-img.png?v=1617879589\" class=\"img-arrow-pc\">\n        <span class=\"toppage-check-icon-pc\">CHECK!<\/span>\n\n      <\/a>\n      <p>\n        HELLO MY BLEND（ハローマイブレンド）は、<br class=\"display-pc\">スパイスとハーブを使ったフードクラフトキットのブランドです。\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>","width":"100%","alignment":"top-middle"}}},"block_order":["16178605870ca1cae8-0","530857a9-4d06-4674-ab65-a5d7f86810f2"],"settings":{"full_width":true,"space_around":false}},"1617884707949c2591":{"type":"featured-content","settings":{"title":"ABOUT US","text":"","align_text":"center","narrow_column":false,"enlarge_text":true,"divider":false}},"1617884885ca78ab67":{"type":"advanced-content","blocks":{"1617884885ca78ab67-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2021-04-08_21.30.15.png","width":"100%","alignment":"top-middle"}},"04605e89-a4f7-4cdf-9a24-1ec9cc3b6a7a":{"type":"html","settings":{"code":"<div class=\"text-center\">\n<a href=\"#\" class=\"outline-btn\">VIEW MORE<\/a>\n<\/div>","width":"100%","alignment":"top-middle"}}},"block_order":["1617884885ca78ab67-0","04605e89-a4f7-4cdf-9a24-1ec9cc3b6a7a"],"settings":{"full_width":true,"space_around":false}},"161788522227920851":{"type":"featured-content","settings":{"title":"RECIPE","text":"","align_text":"center","narrow_column":false,"enlarge_text":true,"divider":false}}},"content_for_index":["16178605870ca1cae8","1566999869051","1617884707949c2591","1498163293234","1498501481980","1617884885ca78ab67","1499789718857","1499790731541","161788522227920851","1499790633921","1611293707ea6d294a","16115545459fbcbb47"]},"presets":{"Classic":{"color_borders":"#e8e8e1","color_button":"#111111","color_button_text":"#ffffff","color_drawer_background":"#ffffff","color_drawer_text":"#000000","color_drawer_border":"#e8e8e1","color_drawer_button":"#111111","color_drawer_button_text":"#ffffff","color_footer":"#111111","color_footer_text":"#ffffff","color_image_1":"#000000","color_image_1_opacity":62,"color_image_2":"#000000","color_image_2_opacity":0,"color_small_image_bg":"#ffffff","color_large_image_bg":"#111111","type_header_spacing":"0","type_header_font_family":"itc_avant_garde_gothic_n7","type_header_base_size":35,"type_header_line_height":1.2,"type_header_accent_transform":true,"type_base_font_family":"futura_n4","type_base_spacing":"25","type_base_size":17,"type_base_line_height":1.6,"type_base_accent_transform":true,"icon_weight":"3px","icon_linecaps":"miter","animate_page_transitions":true,"animate_page_transition_style":"page-slow-fade","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"zoom-fade","animate_buttons":true,"animate_underlines":true,"quick_shop_text":"Quick view","cart_type":"drawer","share_facebook":true,"share_twitter":true,"share_pinterest":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","breadcrumb":true,"color_input":"#ffffff","checkout_banner_background_color":"#ffffff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","settings":{"main_menu_link_list":"main-menu","sticky_index":true,"sticky_collection":false,"show_announcement":true}},"footer":{"type":"footer","blocks":{"1494292481350":{"type":"logo_social","settings":{"container_width":20}},"1494292485313":{"type":"menu","settings":{"menu":"main-menu","container_width":20}},"1494292487693":{"type":"newsletter","settings":{"container_width":33}},"1494301487049":{"type":"menu","settings":{"menu":"footer","container_width":20}}},"block_order":["1494292481350","1494301487049","1494292485313","1494292487693"],"settings":{"show_payment_icons":false}},"collection-template":{"type":"collection-template","settings":{"collection_image_enable":true,"collection_sort_enable":false,"per_row":4}},"product-template":{"type":"product-template","settings":{"social_enable":true,"image_size":"medium"}},"article-template":{"type":"article-template","settings":{"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false,"social_sharing_blog":true}},"1498163293234":{"type":"featured-content","settings":{}},"1498501481980":{"type":"fading-images","blocks":{"1498501481980-0":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Beautifully animated","slide_title2":"titles and images"}},"1498501481980-1":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Use this section","slide_title2":"to impress"}},"1498501481980-2":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"And highlight","slide_title2":"important details"}}},"block_order":["1498501481980-0","1498501481980-1","1498501481980-2"],"settings":{"slide_speed":5,"color_overlay":"#000000","color_overlay_opacity":30}},"blog-template":{"type":"blog-template","settings":{"blog_show_tag_filter":true,"blog_show_rss":false,"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false}},"1566999869051":{"type":"featured-collection-switcher","settings":{}},"1499789718857":{"type":"featured-collections","blocks":{"1499789718857-0":{"type":"collection","settings":{"collection":"","size":"wide"}},"1499789718857-1":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-2":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-3":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-4":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-5":{"type":"collection","settings":{"collection":"","size":"wide"}}},"block_order":["1499789718857-0","1499789718857-1","1499789718857-2","1499789718857-3","1499789718857-4","1499789718857-5"],"settings":{"title":"","divider":false}},"1499790529450":{"type":"hero-video","settings":{"title":"Bring your\nbrand to life.","title_size":80,"subheading":"","link_text":"Watch","link":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","section_height":"650px"}},"1499790633921":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image and text","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"","layout":"left","height":650}},"1499790731541":{"type":"collection-callout","settings":{"collection":"","subtitle":"Brand new","title":"Collection callout","text":"Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.","cta_text1":"Shop Jackets","cta_link1":"","cta_text2":"Shop All","cta_link2":"","divider":false}},"product-sections-template":{"type":"product-sections-template","blocks":{"product-image-row":{"type":"image-row","settings":{}},"product-text-and-image":{"type":"text-and-image","settings":{}},"product-background-image-text":{"type":"background-image-text","settings":{"layout":"right"}},"product-text-columns":{"type":"text-columns","settings":{}},"product-hero-video":{"type":"hero-video","settings":{}}},"block_order":["product-image-row","product-text-and-image","product-background-image-text","product-text-columns","product-hero-video"],"settings":{}},"page-sections-template":{"type":"page-sections-template","blocks":{"page-fading-images":{"type":"fading-images","settings":{}},"page-rich-text":{"type":"rich-text","settings":{"title":"","enlarge_text":true}},"page-text-columns":{"type":"text-columns","settings":{}},"page-background-image-text":{"type":"background-image-text","settings":{"layout":"right"}},"page-featured-collection":{"type":"featured-collection","settings":{}}},"block_order":["page-fading-images","page-rich-text","page-text-columns","page-background-image-text","page-featured-collection"],"settings":{}}},"content_for_index":["1499790529450","1566999869051","1498163293234","1499789718857","1498501481980","1499790731541","1499790633921"]},"Elegant":{"color_borders":"#e8e8e1","color_button":"#353956","color_button_text":"#ffffff","color_footer":"#17172c","color_footer_text":"#ffffff","color_drawer_background":"#ffffff","color_drawer_text":"#17172c","color_drawer_border":"#e8e8e1","color_drawer_button":"#353956","color_drawer_button_text":"#ffffff","color_modal_overlays":"#17172c","color_image_2":"#17172c","color_image_2_opacity":0,"color_image_1":"#17172c","color_image_1_opacity":32,"color_small_image_bg":"#f4f4f4","color_large_image_bg":"#17172c","type_header_spacing":"0","type_header_font_family":"bauer_bodoni_n7","type_header_base_size":42,"type_header_line_height":1.3,"type_base_font_family":"futura_n4","type_base_spacing":"25","type_base_size":17,"type_base_line_height":1.6,"icon_weight":"3px","icon_linecaps":"miter","animate_page_transitions":true,"animate_page_transition_style":"page-slow-fade","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"zoom-fade","animate_buttons":true,"animate_underlines":true,"quick_shop_text":"Quick view","cart_type":"drawer","share_facebook":true,"share_twitter":true,"share_pinterest":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","breadcrumb":true,"color_input":"#ffffff","checkout_banner_background_color":"#ffffff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","settings":{"main_menu_link_list":"main-menu","sticky_index":true,"sticky_collection":false,"show_announcement":true}},"footer":{"type":"footer","blocks":{"1494292481350":{"type":"logo_social","settings":{"container_width":20}},"1494292485313":{"type":"menu","settings":{"menu":"main-menu","container_width":20}},"1494292487693":{"type":"newsletter","settings":{"container_width":33}},"1494301487049":{"type":"menu","settings":{"menu":"footer","container_width":20}}},"block_order":["1494292481350","1494301487049","1494292485313","1494292487693"],"settings":{"show_payment_icons":false}},"collection-template":{"type":"collection-template","settings":{"collection_image_enable":true,"collection_sort_enable":false,"per_row":4}},"product-template":{"type":"product-template","settings":{"social_enable":true,"image_size":"medium"}},"article-template":{"type":"article-template","settings":{"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false,"social_sharing_blog":true}},"1498163293234":{"type":"featured-content","settings":{}},"1498501481980":{"type":"fading-images","blocks":{"1498501481980-0":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Beautifully animated","slide_title2":"titles and images"}},"1498501481980-1":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Use this section","slide_title2":"to impress"}},"1498501481980-2":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"And highlight","slide_title2":"important details"}}},"block_order":["1498501481980-0","1498501481980-1","1498501481980-2"],"settings":{"slide_speed":5,"color_overlay":"#000000","color_overlay_opacity":30}},"blog-template":{"type":"blog-template","settings":{"blog_show_tag_filter":true,"blog_show_rss":false,"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false}},"1566999869051":{"type":"featured-collection-switcher","settings":{}},"1499789718857":{"type":"featured-collections","blocks":{"1499789718857-0":{"type":"collection","settings":{"collection":"","size":"wide"}},"1499789718857-1":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-2":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-3":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-4":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-5":{"type":"collection","settings":{"collection":"","size":"wide"}}},"block_order":["1499789718857-0","1499789718857-1","1499789718857-2","1499789718857-3","1499789718857-4","1499789718857-5"],"settings":{"title":"","divider":false}},"1499790529450":{"type":"hero-video","settings":{"title":"Bring your\nbrand to life.","title_size":80,"subheading":"","link_text":"Watch","link":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","section_height":"650px"}},"1499790633921":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image and text","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"","layout":"left","height":650}},"1499790731541":{"type":"collection-callout","settings":{"collection":"","subtitle":"Brand new","title":"Collection callout","text":"Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.","cta_text1":"Shop Jackets","cta_link1":"","cta_text2":"Shop All","cta_link2":"","divider":false}}},"content_for_index":["1499790529450","1566999869051","1498163293234","1499789718857","1498501481980","1499790731541","1499790633921"]},"Minimal":{"color_borders":"#f0f1f3","color_button":"#111111","color_button_text":"#ffffff","color_footer":"#f0f1f3","color_footer_text":"#2c2c2c","color_drawer_background":"#ffffff","color_drawer_text":"#000000","color_drawer_border":"#f0f1f3","color_drawer_button":"#111111","color_drawer_button_text":"#ffffff","color_modal_overlays":"#aeb1b8","color_image_2":"#000000","color_image_2_opacity":0,"color_image_1":"#000000","color_image_1_opacity":26,"color_small_image_bg":"#ffffff","color_large_image_bg":"#dedfe1","type_header_spacing":"50","type_header_font_family":"chivo_n7","type_header_base_size":34,"type_header_line_height":1.2,"type_header_accent_transform":true,"type_base_font_family":"neuzeit_office_n4","type_base_spacing":"25","type_base_size":16,"type_base_line_height":1.6,"type_base_accent_transform":true,"icon_weight":"2px","icon_linecaps":"round","animate_page_transitions":true,"animate_page_transition_style":"page-slide-reveal-down","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"fade-in","animate_buttons":true,"animate_underlines":true,"quick_shop_text":"Quick view","cart_type":"drawer","share_facebook":true,"share_twitter":true,"share_pinterest":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","breadcrumb":true,"color_input":"#ffffff","checkout_banner_background_color":"#ffffff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","settings":{"main_menu_link_list":"main-menu","sticky_index":false,"sticky_collection":false,"show_announcement":true}},"footer":{"type":"footer","blocks":{"1494292481350":{"type":"logo_social","settings":{"container_width":20}},"1494292485313":{"type":"menu","settings":{"menu":"main-menu","container_width":20}},"1494292487693":{"type":"newsletter","settings":{"container_width":33}},"1494301487049":{"type":"menu","settings":{"menu":"footer","container_width":20}}},"block_order":["1494292481350","1494301487049","1494292485313","1494292487693"],"settings":{"show_payment_icons":false}},"collection-template":{"type":"collection-template","settings":{"collection_image_enable":true,"collection_sort_enable":false,"per_row":4}},"product-template":{"type":"product-template","settings":{"social_enable":true,"image_size":"medium"}},"article-template":{"type":"article-template","settings":{"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false,"social_sharing_blog":true}},"1498163293234":{"type":"featured-content","settings":{}},"1498501481980":{"type":"fading-images","blocks":{"1498501481980-0":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Beautifully animated","slide_title2":"titles and images"}},"1498501481980-1":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Use this section","slide_title2":"to impress"}},"1498501481980-2":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"And highlight","slide_title2":"important details"}}},"block_order":["1498501481980-0","1498501481980-1","1498501481980-2"],"settings":{"slide_speed":5,"color_overlay":"#000000","color_overlay_opacity":30}},"blog-template":{"type":"blog-template","settings":{"blog_show_tag_filter":true,"blog_show_rss":false,"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false}},"1566999869051":{"type":"featured-collection-switcher","settings":{}},"1499789718857":{"type":"featured-collections","blocks":{"1499789718857-0":{"type":"collection","settings":{"collection":"","size":"wide"}},"1499789718857-1":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-2":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-3":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-4":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-5":{"type":"collection","settings":{"collection":"","size":"wide"}}},"block_order":["1499789718857-0","1499789718857-1","1499789718857-2","1499789718857-3","1499789718857-4","1499789718857-5"],"settings":{"title":"","divider":false}},"1499790529450":{"type":"hero-video","settings":{"title":"Bring your\nbrand to life.","title_size":80,"subheading":"","link_text":"Watch","link":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","section_height":"650px"}},"1499790633921":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image and text","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"","layout":"left","height":650}},"1499790731541":{"type":"collection-callout","settings":{"collection":"","subtitle":"Brand new","title":"Collection callout","text":"Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.","cta_text1":"Shop Jackets","cta_link1":"","cta_text2":"Shop All","cta_link2":"","divider":false}}},"content_for_index":["1499790529450","1566999869051","1498163293234","1499789718857","1498501481980","1499790731541","1499790633921"]}}}
+{
+  "current": {
+    "color_borders": "#f0f1f3",
+    "color_button": "#111111",
+    "color_button_text": "#ffffff",
+    "color_footer": "#f0f1f3",
+    "color_footer_text": "#2c2c2c",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#000000",
+    "color_drawer_border": "#f0f1f3",
+    "color_drawer_button": "#111111",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#aeb1b8",
+    "color_image_2": "#000000",
+    "color_image_2_opacity": 0,
+    "color_image_1": "#000000",
+    "color_image_1_opacity": 26,
+    "color_small_image_bg": "#ffffff",
+    "color_large_image_bg": "#dedfe1",
+    "type_header_font_family": "poppins_n4",
+    "type_header_spacing": "50",
+    "type_header_base_size": 34,
+    "type_header_line_height": 1.8,
+    "type_header_accent_transform": true,
+    "type_base_font_family": "poppins_n4",
+    "type_base_spacing": "25",
+    "type_base_size": 16,
+    "type_base_line_height": 1.7,
+    "type_base_accent_transform": true,
+    "icon_weight": "2px",
+    "icon_linecaps": "round",
+    "animate_page_transitions": true,
+    "animate_page_transition_style": "page-slide-reveal-down",
+    "animate_sections": true,
+    "animate_sections_background_style": "zoom-fade",
+    "animate_sections_text_style": "rise-up",
+    "animate_images": true,
+    "animate_images_style": "fade-in",
+    "animate_buttons": true,
+    "animate_underlines": true,
+    "quick_shop_text": "Quick view",
+    "cart_type": "drawer",
+    "social_facebook_link": "https:\/\/www.facebook.com\/HelloMyBlend",
+    "social_twitter_link": "https:\/\/twitter.com\/blend_my",
+    "social_instagram_link": "http:\/\/instagram.com\/hello_my_blend",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCuQc7-2uwkWPsdkikffA6bw\/featured",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "favicon": "shopify:\/\/shop_images\/logo2.png",
+    "show_breadcrumbs": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#111111",
+    "checkout_button_color": "#111111",
+    "checkout_error_color": "#ff6d6d",
+    "color_image_bg": "#000000",
+    "breadcrumb": true,
+    "color_input": "#ffffff",
+    "checkout_banner_background_color": "#ffffff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "0dbd541f-9969-46fa-a8a3-d4c2ef0d7d4d": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/logo_yoko.png",
+              "desktop_logo_width": 200,
+              "mobile_logo_width": 140
+            }
+          }
+        },
+        "block_order": [
+          "0dbd541f-9969-46fa-a8a3-d4c2ef0d7d4d"
+        ],
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "main_menu_alignment": "left-center",
+          "header_style": "normal",
+          "sticky_index": false,
+          "sticky_collection": false,
+          "type_navigation_size": 18,
+          "type_navigation_style": false,
+          "show_announcement": true,
+          "announcement_text": "Free shipping and returns",
+          "announcement_closable": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1494292481350": {
+            "type": "logo_social",
+            "settings": {
+              "desktop_logo_height": 50,
+              "container_width": 20
+            }
+          },
+          "1494301487049": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 20
+            }
+          },
+          "1494292485313": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "main-menu",
+              "container_width": 20
+            }
+          },
+          "1494292487693": {
+            "type": "newsletter",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Sign up and save",
+              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "container_width": 33
+            }
+          }
+        },
+        "block_order": [
+          "1494292481350",
+          "1494301487049",
+          "1494292485313",
+          "1494292487693"
+        ],
+        "settings": {
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "show_currency_flags": true,
+          "show_payment_icons": false,
+          "colorize_payment_icons": false,
+          "show_copyright": false,
+          "copyright_text": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection_image_enable": true,
+          "collection_image_height": 550,
+          "parallax": true,
+          "description_position": "top",
+          "collection_subnav_style": "inline",
+          "collection_tags_style": "inline",
+          "collection_sort_enable": true,
+          "per_row": 4,
+          "mobile_flush_grid": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "social_enable": true,
+          "image_size": "medium"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_image": true,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "social_sharing_blog": true
+        }
+      },
+      "1498163293234": {
+        "type": "featured-content",
+        "disabled": true,
+        "settings": {
+          "title": "たくさんの人に楽しんでもらえる、安心で美味しい商品を届けられないか…。",
+          "text": "<p> 考え抜いた末、行き着いた答えは、「一人ひとりに作り手になってもらおう！」でした。 <\/p>",
+          "align_text": "left",
+          "narrow_column": true,
+          "enlarge_text": false,
+          "divider": false
+        }
+      },
+      "1498501481980": {
+        "type": "fading-images",
+        "blocks": {
+          "1498501481980-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC00003.jpg",
+              "focal_point": "20% 50%",
+              "slide_title1": "保存料・着色料不使用。",
+              "slide_title2": "手作りの美味しさ。"
+            }
+          },
+          "1498501481980-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_5805.jpg",
+              "focal_point": "center center",
+              "slide_title1": "キャンプ飯・ホットドリンクに。",
+              "slide_title2": "スパイスシロップ。"
+            }
+          },
+          "1498501481980-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC00635.png",
+              "focal_point": "center center",
+              "slide_title1": "自分で作るかんたんキット。",
+              "slide_title2": ""
+            }
+          }
+        },
+        "block_order": [
+          "1498501481980-0",
+          "1498501481980-1",
+          "1498501481980-2"
+        ],
+        "settings": {
+          "title_lines": "2",
+          "title_font": "body",
+          "title_size": 32,
+          "title_color": "#ffffff",
+          "title_bg_color": "rgba(0,0,0,0)",
+          "text_align": "vertical-center horizontal-center",
+          "slide_speed": 5,
+          "color_overlay": "#000000",
+          "color_overlay_opacity": 20,
+          "desktop_height": "650px",
+          "mobile_height": "auto"
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "blog_show_tag_filter": false,
+          "blog_show_rss": false,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false
+        }
+      },
+      "1566999869051": {
+        "type": "featured-collection-switcher",
+        "settings": {
+          "title": "MOST POPULAR",
+          "collection1": "手作りキット-シロップ",
+          "collection2": "",
+          "per_row": 4,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "1499789718857": {
+        "type": "featured-collections",
+        "disabled": true,
+        "blocks": {
+          "1499789718857-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "1499789718857-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "1499789718857-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "1499789718857-5": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "focal_point": "center center",
+              "size": "wide"
+            }
+          }
+        },
+        "block_order": [
+          "1499789718857-2",
+          "1499789718857-3",
+          "1499789718857-4",
+          "1499789718857-5"
+        ],
+        "settings": {
+          "title": "",
+          "divider": false,
+          "enable_gutter": false
+        }
+      },
+      "1499790633921": {
+        "type": "background-image-text",
+        "settings": {
+          "subtitle": "アレンジレシピ",
+          "title": "かんたんモクテル",
+          "text": "<p>HELLO MY BLENDのジンジャーシロップを使えば、スパイスの効いたオリジナルドリンクもかんたんに作れます。<\/p>",
+          "button_label": "",
+          "image": "shopify:\/\/shop_images\/DSC00022.jpg",
+          "focal_point": "20% 50%",
+          "layout": "left",
+          "height": 750,
+          "parallax": true
+        }
+      },
+      "1499790731541": {
+        "type": "collection-callout",
+        "disabled": true,
+        "settings": {
+          "collection": "",
+          "subtitle": "Brand new",
+          "title": "Collection callout",
+          "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+          "cta_text1": "Shop Jackets",
+          "cta_text2": "Shop All",
+          "layout": "right",
+          "divider": false
+        }
+      },
+      "footer-promotions": {
+        "type": "footer-promotions",
+        "settings": {
+          "hide_homepage": true,
+          "image_size": "wide",
+          "align_text": "left"
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "Sign up and save",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "close_text": "No thanks",
+          "enable_newsletter": true,
+          "button_label": "Optional button",
+          "enable_button": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "f189a4df-8921-4e66-a4b9-67decf195ece": {
+            "type": "collection",
+            "settings": {
+              "collection": "手作りキット"
+            }
+          },
+          "fc2918dd-08d0-42b8-bf3b-d3557e71932a": {
+            "type": "collection",
+            "settings": {
+              "collection": "手作りキット-シロップ"
+            }
+          },
+          "59229def-5a67-4530-9a3f-6e864e3e7323": {
+            "type": "collection",
+            "settings": {
+              "collection": "frontpage"
+            }
+          }
+        },
+        "block_order": [
+          "f189a4df-8921-4e66-a4b9-67decf195ece",
+          "fc2918dd-08d0-42b8-bf3b-d3557e71932a",
+          "59229def-5a67-4530-9a3f-6e864e3e7323"
+        ],
+        "settings": {
+          "title_enable": true,
+          "display_type": "selected",
+          "sort": "alphabetical",
+          "grid": "3"
+        }
+      },
+      "1611293707ea6d294a": {
+        "type": "blog-posts",
+        "settings": {
+          "title": "",
+          "blog": "レシピ",
+          "post_limit": 3,
+          "blog_show_tags": false,
+          "blog_show_date": true,
+          "blog_show_comments": false,
+          "blog_show_author": false,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "16115545459fbcbb47": {
+        "type": "advanced-content",
+        "disabled": true,
+        "blocks": {
+          "16115545459fbcbb47-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/soda.jpg",
+              "link": "shopify:\/\/pages\/about-us",
+              "width": "66%",
+              "alignment": "center"
+            }
+          },
+          "16115545459fbcbb47-1": {
+            "type": "html",
+            "settings": {
+              "code": "<a href=\"https:\/\/goodthewhat.myshopify.com\/pages\/about-us\"><h2 style=\"font-size: 1.5em;\">HELLO MY BLENDって？<\/h2>\n<p>ハローマイブレンドは、スパイスとハーブを使ったフードクラフトキットのブランドです。<br>もっと詳しく知りたい方はこちら！５分でわかるHELLO MY BLENDについて。<\/p><\/a>",
+              "width": "33%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "16115545459fbcbb47-0",
+          "16115545459fbcbb47-1"
+        ],
+        "settings": {
+          "full_width": false,
+          "space_around": true
+        }
+      },
+      "16178605870ca1cae8": {
+        "type": "advanced-content",
+        "blocks": {
+          "adcb8b05-3942-429f-ad15-0b61a7cecb42": {
+            "type": "html",
+            "settings": {
+              "code": "<div id=\"firstview_image\"><\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          },
+          "530857a9-4d06-4674-ab65-a5d7f86810f2": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"toppage-card\">\n  <div class=\"display-sp toppage-header\">\n    <span class=\"toppage-check-icon-sp\">CHECK!<\/span>\n    <a href=\"\/pages\/about-us\" class=\"h4\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/arrow-img.png?v=1617879589\" class=\"img-arrow-sp\"><\/a>\n  <\/div>\n  <div class=\"row\">\n    <div class=\"toppage-card--image\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/DSC00022.jpg?v=1613727650\" alt=\"\">\n    <\/div>\n    <div class=\"toppage-card--text\">\n      <a href=\"\/pages\/about-us\" class=\"display-pc h1\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/arrow-img.png?v=1617879589\" class=\"img-arrow-pc\">\n        <span class=\"toppage-check-icon-pc\">CHECK!<\/span>\n\n      <\/a>\n      <p>\n        HELLO MY BLEND（ハローマイブレンド）は、<br class=\"display-pc\">スパイスとハーブを使ったフードクラフトキットのブランドです。\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "adcb8b05-3942-429f-ad15-0b61a7cecb42",
+          "530857a9-4d06-4674-ab65-a5d7f86810f2"
+        ],
+        "settings": {
+          "full_width": true,
+          "space_around": false
+        }
+      },
+      "1617884707949c2591": {
+        "type": "featured-content",
+        "settings": {
+          "title": "ABOUT US",
+          "text": "",
+          "align_text": "center",
+          "narrow_column": false,
+          "enlarge_text": true,
+          "divider": false
+        }
+      },
+      "1617884885ca78ab67": {
+        "type": "advanced-content",
+        "blocks": {
+          "29a748f9-12e2-4c8e-9742-f485e3ebdc15": {
+            "type": "html",
+            "settings": {
+              "code": "<div id=\"custom_html--about_us\"><\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "29a748f9-12e2-4c8e-9742-f485e3ebdc15"
+        ],
+        "settings": {
+          "full_width": true,
+          "space_around": false
+        }
+      },
+      "161788522227920851": {
+        "type": "featured-content",
+        "settings": {
+          "title": "RECIPE",
+          "text": "",
+          "align_text": "center",
+          "narrow_column": false,
+          "enlarge_text": true,
+          "divider": false
+        }
+      }
+    },
+    "content_for_index": [
+      "16178605870ca1cae8",
+      "1566999869051",
+      "1617884707949c2591",
+      "1498163293234",
+      "1498501481980",
+      "1617884885ca78ab67",
+      "1499789718857",
+      "1499790731541",
+      "161788522227920851",
+      "1499790633921",
+      "1611293707ea6d294a",
+      "16115545459fbcbb47"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_footer": "#111111",
+      "color_footer_text": "#ffffff",
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 62,
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#111111",
+      "type_header_spacing": "0",
+      "type_header_font_family": "itc_avant_garde_gothic_n7",
+      "type_header_base_size": 35,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_enable": true,
+            "collection_sort_enable": false,
+            "per_row": 4
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "",
+            "link_text": "Watch",
+            "link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-image-row": {
+              "type": "image-row",
+              "settings": {
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {
+              }
+            },
+            "product-hero-video": {
+              "type": "hero-video",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "product-image-row",
+            "product-text-and-image",
+            "product-background-image-text",
+            "product-text-columns",
+            "product-hero-video"
+          ],
+          "settings": {
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-fading-images": {
+              "type": "fading-images",
+              "settings": {
+              }
+            },
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "title": "",
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {
+              }
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "page-fading-images",
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921"
+      ]
+    },
+    "Elegant": {
+      "color_borders": "#e8e8e1",
+      "color_button": "#353956",
+      "color_button_text": "#ffffff",
+      "color_footer": "#17172c",
+      "color_footer_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#17172c",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#353956",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#17172c",
+      "color_image_2": "#17172c",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#17172c",
+      "color_image_1_opacity": 32,
+      "color_small_image_bg": "#f4f4f4",
+      "color_large_image_bg": "#17172c",
+      "type_header_spacing": "0",
+      "type_header_font_family": "bauer_bodoni_n7",
+      "type_header_base_size": 42,
+      "type_header_line_height": 1.3,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_enable": true,
+            "collection_sort_enable": false,
+            "per_row": 4
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "",
+            "link_text": "Watch",
+            "link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921"
+      ]
+    },
+    "Minimal": {
+      "color_borders": "#f0f1f3",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_footer": "#f0f1f3",
+      "color_footer_text": "#2c2c2c",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#f0f1f3",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#aeb1b8",
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 26,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#dedfe1",
+      "type_header_spacing": "50",
+      "type_header_font_family": "chivo_n7",
+      "type_header_base_size": 34,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "neuzeit_office_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 16,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "2px",
+      "icon_linecaps": "round",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slide-reveal-down",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "fade-in",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": false,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_enable": true,
+            "collection_sort_enable": false,
+            "per_row": 4
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "",
+            "link_text": "Watch",
+            "link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921"
+      ]
+    }
+  }
+}
