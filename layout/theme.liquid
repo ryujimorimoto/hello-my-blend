@@ -79,10 +79,11 @@
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
   
-  {%- if template == 'page.about-us' -%}
+  {%- if template == 'index' -%}
+    <script src="{{ 'top-page.js' | asset_url }}" defer="defer"></script>
+    {{ 'top-page.css' | asset_url | stylesheet_tag }}
+  {%- elsif template == 'page.about-us' -%}
     {{'about-us.css' | asset_url | stylesheet_tag}}
-  {%- endif -%}
-  {%- if template == 'page.about-us' -%}
     {{'about-us.js' | asset_url | script_tag}}
   {%- endif -%}
 </head>

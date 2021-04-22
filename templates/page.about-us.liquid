@@ -39,12 +39,12 @@
 
 <div class="syrup-or-curry-switch spice-container">
   <ul class="tab-group">
-    <li class="tab syrup is-active">スパイスシロップ<br class="br-pc-none">について</li>
-    <li class="tab curry">スパイスカレー<br class="br-pc-none">について</li>
+    <li id="syrup-tab" class="tab is-active" onClick="tabSwitch('syrup')">スパイスシロップ<br class="br-pc-none">について</li>
+    <li id="curry-tab" class="tab" onClick="tabSwitch('curry')">スパイスカレー<br class="br-pc-none">について</li>
   </ul>
 </div>
 
-<div class="panel syrup is-show">
+<div id="syrup" class="switch-contents is-show">
   <div class="spice-container">
     <div class="syrup-title">
       <h2>SPICE SYRUP</h2>
@@ -318,6 +318,6 @@
   </div>
 </div>
 
-<div class="panel curry">
+<div id="curry" class="switch-contents">
   curry
 </div>

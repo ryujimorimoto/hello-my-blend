@@ -156,7 +156,7 @@
   margin-right: 20px;
 }
 
-.panel {
+.switch-contents {
   display: none;
 }
 
@@ -166,7 +166,7 @@
   transition: all 0.2s ease-out;
 }
 
-.panel.is-show {
+.switch-contents.is-show {
   display: block;
 }
 
