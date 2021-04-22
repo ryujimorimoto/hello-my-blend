@@ -183,14 +183,35 @@
   margin: 0 auto;
 }
 
+.about-spice-title {
+  text-align: center;
+  margin: 75px 0;
+}
+
+.about-spice-title h2 {
+  font-size: 55px;
+  font-weight: 900;
+  margin: 0;
+  line-height: 55px;
+}
+
+.spice p {
+  line-height: 30px;
+}
+
 .br-pc-none {
   display: none;
 }
 
+
 @media only screen and (max-width:589px){
-  .syrup-or-curry-switch {
-    /* absoluteの良い回避方法が見つかったら変更 */
-    margin-top: 900px;
+  .about-spice-title {
+    margin: 30px 0;
+  }
+
+  .about-spice-title h2 {
+    font-size: 30px;
+    line-height: 30px;
   }
 
   .br-pc-none {
@@ -203,34 +224,16 @@
 
 }
 
-/* SPICE SYRUP */
-.syrup p {
-  line-height: 30px;
-}
-
-.syrup-title {
-  text-align: center;
-  margin: 75px 0;
-}
-
-.syrup-title h2 {
-  font-size: 55px;
-  font-weight: 900;
-  margin: 0;
-  line-height: 55px;
-}
-
 @media only screen and (max-width:589px){
-  .syrup-title {
-    margin: 30px 0;
+  .syrup-or-curry-switch {
+    /* absoluteの良い回避方法が見つかったら変更 */
+    margin-top: 900px;
   }
 
-  .syrup-title h2 {
-    font-size: 30px;
-    line-height: 30px;
-  }
+  
 }
 
+/* SPICE SYRUP */
 /* feature共通サブタイトル */
 .syrup-subtitle {
   display: flex;
@@ -498,6 +501,31 @@
     width: 100%;
     padding-bottom: 80px;
   }
+}
+
+/* curry */
+.curry-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.curry-3column-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.curry-3column-element {
+  width: 30%;
+}
+
+.curry-2column-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.curry-pc-right,
+.curry-pc-left {
+  width:48%;
 }
 
 /* ABOUT 終了 */
