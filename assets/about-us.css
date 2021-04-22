@@ -1,0 +1,503 @@
+/* ABOUT top  */ 
+
+.page-title {
+  text-align: center;
+}
+
+.about-top{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about-top p {
+  line-height: 45px;
+  font-size: 1em;
+}
+
+@media only screen and (max-width:589px){
+  .about-top p {
+    line-height: 35px;
+  }
+}
+
+/* ABOUT hello */
+
+.about-hello {
+  text-align: center;
+  display: flex;
+  width: 90%;
+  margin: 0 auto 180px;
+}
+
+.about-hello-logo {
+  width: 40%;
+}
+
+.about-hello h2 {
+  margin: 0;
+}
+
+.about-hello-box {
+  width: 80%;
+  height: 12px;
+  background-color: #DF8800;
+  margin: 0 auto;
+}
+
+.about-hello-card,
+.about-hello-image-wrapper{
+  flex: 1;
+}
+
+.about-hello-card {
+  box-shadow: 0px 8px 14px 8px #00000014;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+.about-concept {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-radius: 10px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.about-hello h3 {
+  color: #FFFFFF;
+  background-color: #DF8800;
+  display: inline-block;
+  padding: 0 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+.about-hello .important-element {
+  margin: 0;
+}
+
+.about-hello .important-element:first-of-type {
+  margin-top: 5px;
+}
+
+.about-hello .important-element span {
+  font-weight: bold;
+}
+
+.about-hello-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-hello-image {
+  width: 650px;
+}
+
+@media only screen and (min-width: 590px) and (max-width:1000px) {
+  .about-hello-card h3,
+  .about-hello-card p {
+    font-size: 0.95em;
+  }
+}
+
+@media only screen and (max-width:589px){
+  .about-hello {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about-hello {
+    width: 100%;
+    position: relative;
+  }
+
+  .about-hello-card {
+    width: 90%;
+  }
+
+  .about-hello-card {
+    position: absolute;
+    top: 90%;
+    z-index: 1;
+  }
+
+  .about-hello-card h3,
+  .about-hello-card p {
+    font-size: 0.95em;
+  }
+}
+
+/* SPICE SYRUP CURRY タブ */
+.tab-group {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  border-bottom: 1px solid #DF8800;
+  margin: 0;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: 1px solid #DF8800;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  font-weight: bold;
+}
+
+.tab:first-of-type {
+  margin-right: 20px;
+}
+
+.switch-contents {
+  display: none;
+}
+
+.tab.is-active {
+  background-color: #DF8800;
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+
+.switch-contents.is-show {
+  display: block;
+}
+
+@media only screen and (max-width:589px){
+  .tab {
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+}
+
+/* SPICE SYRUP CURRY 共通 */
+.spice-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.br-pc-none {
+  display: none;
+}
+
+@media only screen and (max-width:589px){
+  .syrup-or-curry-switch {
+    /* absoluteの良い回避方法が見つかったら変更 */
+    margin-top: 900px;
+  }
+
+  .br-pc-none {
+    display: block;
+  }
+
+  .br-sp-none {
+    display: none;
+  }
+
+}
+
+/* SPICE SYRUP */
+.syrup p {
+  line-height: 30px;
+}
+
+.syrup-title {
+  text-align: center;
+  margin: 75px 0;
+}
+
+.syrup-title h2 {
+  font-size: 55px;
+  font-weight: 900;
+  margin: 0;
+  line-height: 55px;
+}
+
+@media only screen and (max-width:589px){
+  .syrup-title {
+    margin: 30px 0;
+  }
+
+  .syrup-title h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+/* feature共通サブタイトル */
+.syrup-subtitle {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.syrup-subtitle p {
+  margin: 0;
+  text-align: center;
+}
+
+.syrup-number {
+  border-right: 2px solid #ADADAD;
+  padding-right: 15px;
+} 
+
+.syrup-number p {
+  font-weight: bold;
+  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+}
+.feature {
+  font-size: 14px;
+}
+.number {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.syrup-subtitle-text {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.syrup-subtitle-text p{
+  font-size: 40px;
+  line-height: 35px;
+  padding-left: 15px;
+}
+
+@media only screen and (min-width: 590px) and (max-width:1000px) {
+  .feature {
+    font-size: 12px;
+  }
+
+  .number {
+    font-size: 38px;
+  }
+
+  .syrup-subtitle-text p {
+    font-size: 30px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width:589px){
+  .feature {
+    font-size: 10px;
+  }
+
+  .number {
+    font-size: 30px;
+  }
+
+  .syrup-subtitle {
+    margin-bottom: 30px;
+  }
+  
+
+  .syrup-subtitle-text p {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+/* feature共通　コンテンツ内容 */
+.feature-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-pc-left,
+.feature-pc-right {
+  width: 48.5%;
+}
+
+.feature-pc-2column {
+  width: 65%;
+}
+
+.feature-pc-1column {
+  width: 32%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.feature-center {
+  text-align: center;
+}
+
+.feature-margin-bottom {
+  margin-bottom: 80px;
+}
+
+.feature-text {
+  font-size: 0.95em;
+}
+
+.feature-line-text {
+  font-weight: bold;
+  font-size: 1.3em;
+  background: linear-gradient(transparent 70%, #F7C600 70%);
+  display: inline-block;
+}
+
+.caption-bold,
+.text-bold {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.syrup span {
+  font-weight: bold;
+}
+
+@media only screen and (max-width:589px){
+  .feature-flex {
+    flex-direction: column;
+  }
+
+  .feature-pc-left,
+  .feature-pc-right,
+  .feature-pc-2column,
+  .feature-pc-1column
+   {
+    width: 100%;
+  }
+
+  .feature-center p {
+    text-align: left;
+  }
+
+  .feature-margin-bottom {
+    margin-bottom: 40px;
+  }
+
+  .feature-text {
+    font-size: 0.8em;
+  }
+
+  .feature-line-text {
+    font-size: 0.8em;
+  }
+
+  .caption-bold,
+  .text-bold{
+    font-size: 0.8em;
+  }
+
+  .feature-sp-margin {
+    margin-bottom: 50px;
+  }
+}
+
+/* ボーダータイトル */
+.about-border-title {
+  display: flex;
+  align-items: center;
+  color: #DF8800;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+  margin-bottom: 20px;
+}
+
+.about-border-title::before,
+.about-border-title::after {
+  border-top: 1px solid #DF8800;
+  content:"";
+  flex-grow: 1;
+}
+
+.about-border-title::before {
+  margin-right: 1rem;
+}
+
+.about-border-title::after {
+  margin-left: 1rem;
+}
+
+/* feature01  */
+.image01-2-sp {
+  display: none;
+}
+
+.image01-3 {
+  width: 55%;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width:589px){
+  .image01-2-pc {
+    display: none;
+  }
+  
+  .image01-2-sp {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .image01-3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* feature02  */
+.feature-02-margin {
+  margin-bottom: 30px;
+}
+
+/* feature03 */
+.image03-5-sp {
+  display: none;
+}
+
+.about-youtube {
+  text-align: center;
+}
+
+.about-youtube p {
+  margin: 30px 0;
+}
+
+.about-youtube-btn {
+  box-sizing: border-box;
+  border: 2px solid #ADADAD;
+  padding: 20px 120px;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+@media only screen and (max-width:589px){
+  .image03-5-pc {
+    display: none;
+  }
+
+  .image03-5-sp {
+    display: block;
+  }
+}
+
+/* voices */
+.about-voices {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.about-voices p {
+  margin-bottom: 35px;
+}
+
+@media only screen and (max-width:589px){
+  .about-voices {
+    width: 100%;
+    padding-bottom: 80px;
+  }
+}
+
+/* ABOUT 終了 */
