@@ -198,3 +198,23 @@
     font-size: 12px;
   }
 }
+
+.items-stripe {
+  background: repeating-linear-gradient(
+    -45deg,
+    #adadad,
+    #c7c7c7 1px,
+    #ffffff 1px,
+    #ffffff 4px
+  );
+  height: 1vh;
+}
+
+.items--collection-description p {
+  font-size: 0.8em;
+  color: #858585;
+}
+
+.items-title {
+  margin: 50px auto;
+}
