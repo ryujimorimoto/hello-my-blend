@@ -97,14 +97,7 @@
   width: 650px;
 }
 
-@media only screen and (min-width: 590px) and (max-width:1000px) {
-  .about-hello-card h3,
-  .about-hello-card p {
-    font-size: 0.95em;
-  }
-}
-
-@media only screen and (max-width:589px){
+@media only screen and (max-width:800px){
   .about-hello {
     flex-direction: column-reverse;
     align-items: center;
@@ -253,7 +246,6 @@
     font-size: 0.8em;
   }
 
-
   .br-pc-none {
     display: block;
   }
@@ -263,7 +255,7 @@
   }
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width:800px){
   .syrup-or-curry-switch {
     /* absoluteの良い回避方法が見つかったら変更 */
     margin-top: 950px;
@@ -398,6 +390,7 @@
 
   .caption-bold {
     font-size: 0.8em;
+    margin-bottom: 10px;
   }
 
   .feature-margin-bottom {
@@ -434,6 +427,13 @@
 .about-border-title::after {
   margin-left: 1rem;
 }
+
+@media only screen and (max-width:589px){
+  .about-border-title {
+    font-size: 20px;
+  }
+}
+
 
 /* feature01  */
 .image01-2-sp {
