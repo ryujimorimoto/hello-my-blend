@@ -1,4 +1,20 @@
 /* ABOUT top  */ 
+/* ABOUT 共通 */
+.br-pc-none {
+  display: none;
+}
+
+@media only screen and (max-width:589px){
+  .br-pc-none {
+    display: block;
+  }
+
+  .br-sp-none {
+    display: none;
+  }
+}
+
+
 
 .page-title {
   text-align: center;
@@ -17,11 +33,11 @@
 @media only screen and (max-width:589px){
   .about-top p {
     line-height: 35px;
+    font-size: 0.89em;
   }
 }
 
 /* ABOUT hello */
-
 .about-hello {
   text-align: center;
   display: flex;
@@ -109,7 +125,7 @@
   }
 
   .about-hello-card {
-    width: 90%;
+    width: 92%;
   }
 
   .about-hello-card {
@@ -120,7 +136,7 @@
 
   .about-hello-card h3,
   .about-hello-card p {
-    font-size: 0.95em;
+    font-size: 0.89em;
   }
 }
 
@@ -219,11 +235,6 @@
   display: inline-block;
 }
 
-.br-pc-none {
-  display: none;
-}
-
-
 @media only screen and (max-width:589px){
   .about-spice-title {
     margin: 30px 0;
@@ -244,14 +255,6 @@
 
   .spice-line-text {
     font-size: 0.8em;
-  }
-
-  .br-pc-none {
-    display: block;
-  }
-
-  .br-sp-none {
-    display: none;
   }
 }
 
