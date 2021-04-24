@@ -37,6 +37,34 @@
           </ul>
         </div>
       </div>
+      <div class="grid__item grid-product medium-up--one-quarter display-sp">
+        <div class="category-area">
+          <button type="button" class="sp-categories mobile-nav__link--button collapsible-trigger collapsible--auto-height" aria-controls="Linklist-categories">
+            <span class="mobile-nav__faux-link">Categories</span>
+            <div class="mobile-nav__toggle">
+              <span class="categories-arrow">
+                {%- render 'collapsible-icons' -%}
+              </span>
+            </div>
+          </button>
+
+          <div id="Linklist-categories" class="mobile-nav__sublist collapsible-content collapsible-content--all">
+            <div class="collapsible-content__inner">
+              <ul class="mobile-nav__sublist">
+                {%- for childlink in linklists.categories.links -%}
+                  <li class="mobile-nav__item">
+                    <div class="mobile-nav__child-item">
+                      <a href="{{ childlink.url }}" class="mobile-nav__link{% if blog.id == childlink.object.id %} strong {% endif %}" id="Sublabel-{{ grand_child_list_handle }}">
+                        {{ childlink.title | escape }}({{ childlink.object.articles_count }})
+                      </a>
+                    </div>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="grid__item grid-product medium-up--three-quarters">
         <div class="grid">
           {%- for article in blog.articles -%}
@@ -51,7 +79,7 @@
             -%}
 
             <article class="custom-article-content" data-aos>
-              <div class="{% if article.image == blank %} article__image-wrap--empty{% endif %}">
+              <div class=" {% if article.image == blank %} article__image-wrap--empty{% endif %}">
                 {%- unless article.image == blank -%}
                 <div class="article-image-wrap image-wrap">
                   <div class="animate-me lazyload article-image--bgset"
