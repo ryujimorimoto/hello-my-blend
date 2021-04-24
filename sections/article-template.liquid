@@ -156,9 +156,32 @@
 
   </div>
 
-  <div class="text-center">
-    <a href="{{ blog.url }}" class="return-link"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-arrow-left" viewBox="0 0 50 15"><path d="M50 5.38v4.25H15V15L0 7.5 15 0v5.38z"/></svg> {{ 'blogs.article.back_to_blog' | t: title: blog.title }}</a>
+  {%- if section.settings.blog_show_previous_and_next_buttons -%}
+    <div class="page-width medium-up--five-twelfths">
+    <div style="display:flex; justify-content:space-between;">
+      <a href="{{ blog.previous_article }}" class="article-btn">PREV</a>
+      <a href="{{ blog.url }}" class="return-link display-pc">BACK TO INDEX</a>
+      <a href="{{ blog.next_article }}" class="article-btn">NEXT</a>
+    </div>
   </div>
+  {%- endif -%}
+  <style>
+    .return-link{
+      text-decoration: underline;
+      font-size:16px;
+      padding-top: 5px;
+    }
+    .article-btn{
+      border: 1px solid #828282;
+      border-radius: 35px;
+      padding: 5px 35px;
+    }
+    @media screen and (max-width: 1000px){
+      .display-pc {
+        display:none;
+      }
+    }
+  </style>
 </div>
 
 <script type="application/ld+json">
@@ -204,9 +227,16 @@
 </script>
 
 {% schema %}
+
   {
     "name": "Article pages",
     "settings": [
+      {
+        "type": "checkbox",
+        "id": "blog_show_previous_and_next_buttons",
+        "label": "Show next/ previous buttons",
+        "default": true
+      },
       {
         "type": "checkbox",
         "id": "blog_show_image",

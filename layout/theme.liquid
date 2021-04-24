@@ -85,6 +85,8 @@
   {%- elsif template == 'page.about-us' -%}
     {{'about-us.css' | asset_url | stylesheet_tag}}
     {{'about-us.js' | asset_url | script_tag}}
+  {%- elsif template == 'blog' -%}
+    {{ 'blog.css' | asset_url | stylesheet_tag }}
   {%- endif -%}
 </head>
 
