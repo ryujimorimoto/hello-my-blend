@@ -63,9 +63,12 @@
   margin: 0 auto;
 }
 
-.about-hello-card,
-.about-hello-image-wrapper{
-  flex: 1;
+.about-hello-card {
+  width:100%;
+}
+
+.about-hello-image-wrapper {
+  width:90%;
 }
 
 .about-hello-card {
@@ -107,13 +110,7 @@
 }
 
 .about-hello-image-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.about-hello-image {
-  width: 650px;
+  align-self: center;
 }
 
 @media only screen and (max-width:800px){
@@ -140,6 +137,10 @@
   .about-hello-card h3,
   .about-hello-card p {
     font-size: 0.89em;
+  }
+
+  .about-hello-image-wrapper {
+    width: 100%;
   }
 }
 
@@ -253,11 +254,11 @@
   }  
 
   .spice-text {
-    font-size: 0.83em;
+    font-size: 0.8em;
   }
 
   .spice-line-text {
-    font-size: 0.83em;
+    font-size: 0.8em;
   }
 }
 
