@@ -1,0 +1,16 @@
+.h2.product-single__title,
+.section-header__title {
+  font-weight: 700;
+}
+.shopify-payment-button,
+.shopify-payment-button__button {
+  border-radius: 30px !important;
+}
+button[type="submit"] {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  font-weight: 700 !important;
+  border-radius: 60px !important;
+  margin-bottom: 20px;
+  font-size: 20px !important;
+}
