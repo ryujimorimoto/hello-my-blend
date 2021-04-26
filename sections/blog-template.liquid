@@ -31,8 +31,8 @@
         <div class="category-area">
           <ul>
             {% for link in linklists.categories.links %}
-            <li class="{% if blog.id == link.object.id %}strong{% endif %}">{{ link.object.title }}　({{
-              link.object.articles_count }})</li>
+            <li class="{% if blog.id == link.object.id %}strong{% endif %}"><a href="{{ link.object.url }}" >{{ link.object.title }}　({{
+              link.object.articles_count }})</a></li>
             {% endfor %}
           </ul>
         </div>

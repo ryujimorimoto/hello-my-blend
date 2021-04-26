@@ -91,7 +91,15 @@
     </button>
 
     {% if enable_dynamic_buttons %}
+      <div id="custome_payment_button">
       {{ form | payment_button }}
+      </div>
+
+      <script>
+        window.addEventListener("load", function() {
+          document.getElementById("custome_payment_button").querySelector("button").textContent="今すぐ購入する";
+        });
+      </script>
     {% endif %}
 
   {% if enable_dynamic_buttons %}
