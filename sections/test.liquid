@@ -1,0 +1,19 @@
+<div id="textsection">
+  <div class="simpletext">
+    <h1> {{ section.settings.text-box }} </h1>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "test",
+    "settings": [
+      {
+        "type": "checkbox",
+   "id": "home_page",
+   "default": true,
+   "label": "Home page only"
+      }
+    ]
+  }
+  
+{% endschema %}
