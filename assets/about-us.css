@@ -3,7 +3,7 @@
   display: none;
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width: 589px) {
   .br-pc-none {
     display: block;
   }
@@ -13,13 +13,22 @@
   }
 }
 
-/* ABOUT top  */ 
+/* ABOUT top  */
 
 .page-title {
   text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  font-size: 34px !important;
+  margin-top: 40px;
 }
-
-.about-top{
+@media only screen and (min-width: 590px) {
+  .index-section {
+    margin-top: 50px;
+  }
+}
+.about-top {
   text-align: center;
   margin: 30px 0 100px;
 }
@@ -29,11 +38,11 @@
   font-size: 1em;
 }
 
-@media only screen and (max-width:589px){
-  .about-top{
+@media only screen and (max-width: 589px) {
+  .about-top {
     margin-bottom: 30px;
   }
-  
+
   .about-top p {
     line-height: 35px;
     font-size: 0.89em;
@@ -59,16 +68,16 @@
 .about-hello-box {
   width: 80%;
   height: 12px;
-  background-color: #DF8800;
+  background-color: #df8800;
   margin: 0 auto;
 }
 
 .about-hello-card {
-  width:100%;
+  width: 100%;
 }
 
 .about-hello-image-wrapper {
-  width:90%;
+  width: 90%;
 }
 
 .about-hello-card {
@@ -88,8 +97,8 @@
 }
 
 .about-hello h3 {
-  color: #FFFFFF;
-  background-color: #DF8800;
+  color: #ffffff;
+  background-color: #df8800;
   display: inline-block;
   padding: 0 30px;
   border-radius: 30px;
@@ -113,7 +122,7 @@
   align-self: center;
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width: 800px) {
   .about-hello {
     flex-direction: column-reverse;
     align-items: center;
@@ -154,13 +163,13 @@
   display: flex;
   justify-content: center;
   list-style: none;
-  border-bottom: 1px solid #DF8800;
+  border-bottom: 1px solid #df8800;
   margin: 0;
 }
 
 .tab {
   padding: 10px 20px;
-  border: 1px solid #DF8800;
+  border: 1px solid #df8800;
   border-bottom: none;
   border-radius: 10px 10px 0 0;
   text-align: center;
@@ -178,7 +187,7 @@
 }
 
 .tab.is-active {
-  background-color: #DF8800;
+  background-color: #df8800;
   color: #fff;
   transition: all 0.2s ease-out;
 }
@@ -187,7 +196,7 @@
   display: block;
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width: 589px) {
   .tab-container {
     width: 100%;
   }
@@ -235,11 +244,11 @@
 .spice-line-text {
   font-weight: bold;
   font-size: 1.3em;
-  background: linear-gradient(transparent 70%, #F7C600 70%);
+  background: linear-gradient(transparent 70%, #f7c600 70%);
   display: inline-block;
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width: 589px) {
   .about-spice-title {
     margin: 30px 0;
   }
@@ -251,7 +260,7 @@
 
   .about-spice-title p {
     font-size: 14px;
-  }  
+  }
 
   .spice-text {
     font-size: 0.8em;
@@ -262,12 +271,11 @@
   }
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width: 800px) {
   .syrup-or-curry-switch {
     /* absoluteの良い回避方法が見つかったら変更 */
     margin-top: 950px;
   }
-  
 }
 
 /* SPICE SYRUP */
@@ -283,13 +291,13 @@
 }
 
 .syrup-number {
-  border-right: 2px solid #ADADAD;
+  border-right: 2px solid #adadad;
   padding-right: 15px;
-} 
+}
 
 .syrup-number p {
   font-weight: bold;
-  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+  font-family: "ヒラギノ角ゴ StdN", "Hiragino Kaku Gothic StdN", sans-serif;
 }
 
 .feature {
@@ -305,13 +313,13 @@
   align-self: flex-end;
 }
 
-.syrup-subtitle-text p{
+.syrup-subtitle-text p {
   font-size: 40px;
   line-height: 35px;
   padding-left: 15px;
 }
 
-@media only screen and (min-width: 590px) and (max-width:1000px) {
+@media only screen and (min-width: 590px) and (max-width: 1000px) {
   .feature {
     font-size: 12px;
   }
@@ -326,7 +334,7 @@
   }
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width: 589px) {
   .feature {
     font-size: 10px;
   }
@@ -338,7 +346,7 @@
   .syrup-subtitle {
     margin-bottom: 30px;
   }
-  
+
   .syrup-subtitle-text p {
     font-size: 16.9px;
     text-align: left;
@@ -378,7 +386,7 @@
   font-size: 1.2em;
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width: 589px) {
   .feature-flex {
     flex-direction: column;
   }
@@ -386,8 +394,7 @@
   .feature-pc-left,
   .feature-pc-right,
   .feature-pc-2column,
-  .feature-pc-1column
-   {
+  .feature-pc-1column {
     width: 100%;
   }
 
@@ -413,17 +420,17 @@
 .about-border-title {
   display: flex;
   align-items: center;
-  color: #DF8800;
+  color: #df8800;
   font-weight: bold;
   font-size: 30px;
-  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+  font-family: "ヒラギノ角ゴ StdN", "Hiragino Kaku Gothic StdN", sans-serif;
   margin-bottom: 20px;
 }
 
 .about-border-title::before,
 .about-border-title::after {
-  border-top: 1px solid #DF8800;
-  content:"";
+  border-top: 1px solid #df8800;
+  content: "";
   flex-grow: 1;
 }
 
@@ -435,12 +442,11 @@
   margin-left: 1rem;
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width: 589px) {
   .about-border-title {
     font-size: 20px;
   }
 }
-
 
 /* feature01  */
 .image01-2-sp {
@@ -452,11 +458,11 @@
   margin-top: 20px;
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width: 589px) {
   .image01-2-pc {
     display: none;
   }
-  
+
   .image01-2-sp {
     display: block;
     margin-bottom: 20px;
@@ -488,14 +494,14 @@
 
 .about-youtube-btn {
   box-sizing: border-box;
-  border: 2px solid #ADADAD;
+  border: 2px solid #adadad;
   padding: 20px 120px;
   border-radius: 50px;
   display: inline-block;
   font-weight: bold;
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width: 589px) {
   .image03-5-pc {
     display: none;
   }
@@ -516,7 +522,7 @@
   margin-bottom: 35px;
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width: 589px) {
   .about-voices {
     width: 100%;
     padding-bottom: 80px;
@@ -529,7 +535,7 @@
   margin: 0 auto 60px;
 }
 
-.curry-flex{
+.curry-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -540,7 +546,7 @@
 
 .curry-pc-right,
 .curry-pc-left {
-  width:48.5%;
+  width: 48.5%;
 }
 
 .curry-font-bold {
@@ -561,7 +567,7 @@
   margin-bottom: 150px;
 }
 
-@media only screen and (max-width:589px){
+@media only screen and (max-width: 589px) {
   .curry-container {
     width: 100%;
     margin-bottom: 30px;
@@ -571,7 +577,7 @@
     flex-direction: column;
   }
 
-  .curry-3column-element, 
+  .curry-3column-element,
   .curry-pc-right,
   .curry-pc-left {
     width: 100%;
@@ -583,12 +589,11 @@
 
   .curry-margin-bottom {
     margin-bottom: 15px;
-  }  
+  }
 
   .curry-last-margin {
     margin-bottom: 80px;
-  }  
-  
+  }
 }
 
 /* ABOUT 終了 */

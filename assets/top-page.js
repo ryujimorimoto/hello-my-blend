@@ -15,7 +15,7 @@ const CustomHTML_AboutUs = `
     <img src="https://cdn.shopify.com/s/files/1/0530/1947/6163/files/2021-04-08_21.30.15.png?v=1617885050"> 
 
     <p class="text-center">
-      <a href="/about-us" class="btn">VIEW ALL</a>
+      <a href="/pages/about-us" class="btn">VIEW ALL</a>
     </p>
     <br>
     <br>
