@@ -1,3 +1,18 @@
+/* ABOUT 共通 */
+.br-pc-none {
+  display: none;
+}
+
+@media only screen and (max-width:589px){
+  .br-pc-none {
+    display: block;
+  }
+
+  .br-sp-none {
+    display: none;
+  }
+}
+
 /* ABOUT top  */ 
 
 .page-title {
@@ -6,7 +21,7 @@
 
 .about-top{
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0 100px;
 }
 
 .about-top p {
@@ -15,13 +30,17 @@
 }
 
 @media only screen and (max-width:589px){
+  .about-top{
+    margin-bottom: 30px;
+  }
+  
   .about-top p {
     line-height: 35px;
+    font-size: 0.89em;
   }
 }
 
 /* ABOUT hello */
-
 .about-hello {
   text-align: center;
   display: flex;
@@ -44,9 +63,12 @@
   margin: 0 auto;
 }
 
-.about-hello-card,
-.about-hello-image-wrapper{
-  flex: 1;
+.about-hello-card {
+  width:100%;
+}
+
+.about-hello-image-wrapper {
+  width:90%;
 }
 
 .about-hello-card {
@@ -73,7 +95,6 @@
   border-radius: 30px;
   font-weight: bold;
   font-size: 1em;
-  margin-bottom: 0;
 }
 
 .about-hello .important-element {
@@ -89,23 +110,10 @@
 }
 
 .about-hello-image-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-self: center;
 }
 
-.about-hello-image {
-  width: 650px;
-}
-
-@media only screen and (min-width: 590px) and (max-width:1000px) {
-  .about-hello-card h3,
-  .about-hello-card p {
-    font-size: 0.95em;
-  }
-}
-
-@media only screen and (max-width:589px){
+@media only screen and (max-width:800px){
   .about-hello {
     flex-direction: column-reverse;
     align-items: center;
@@ -117,7 +125,7 @@
   }
 
   .about-hello-card {
-    width: 90%;
+    width: 92%;
   }
 
   .about-hello-card {
@@ -128,11 +136,20 @@
 
   .about-hello-card h3,
   .about-hello-card p {
-    font-size: 0.95em;
+    font-size: 0.89em;
+  }
+
+  .about-hello-image-wrapper {
+    width: 100%;
   }
 }
 
 /* SPICE SYRUP CURRY タブ */
+.tab-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .tab-group {
   display: flex;
   justify-content: center;
@@ -171,9 +188,13 @@
 }
 
 @media only screen and (max-width:589px){
+  .tab-container {
+    width: 100%;
+  }
+
   .tab {
-    font-size: 14px;
-    padding: 5px 20px;
+    font-size: 13px;
+    padding: 5px 10px;
   }
 }
 
@@ -183,54 +204,73 @@
   margin: 0 auto;
 }
 
-.br-pc-none {
-  display: none;
-}
-
-@media only screen and (max-width:589px){
-  .syrup-or-curry-switch {
-    /* absoluteの良い回避方法が見つかったら変更 */
-    margin-top: 900px;
-  }
-
-  .br-pc-none {
-    display: block;
-  }
-
-  .br-sp-none {
-    display: none;
-  }
-
-}
-
-/* SPICE SYRUP */
-.syrup p {
-  line-height: 30px;
-}
-
-.syrup-title {
+.about-spice-title {
   text-align: center;
   margin: 75px 0;
 }
 
-.syrup-title h2 {
+.about-spice-title h2 {
   font-size: 55px;
   font-weight: 900;
   margin: 0;
   line-height: 55px;
 }
 
+.about-spice-title p {
+  font-weight: bold;
+}
+
+.spice span {
+  font-weight: bold;
+}
+
+.spice p {
+  line-height: 30px;
+}
+
+.spice-text {
+  font-size: 0.95em;
+}
+
+.spice-line-text {
+  font-weight: bold;
+  font-size: 1.3em;
+  background: linear-gradient(transparent 70%, #F7C600 70%);
+  display: inline-block;
+}
+
 @media only screen and (max-width:589px){
-  .syrup-title {
+  .about-spice-title {
     margin: 30px 0;
   }
 
-  .syrup-title h2 {
+  .about-spice-title h2 {
     font-size: 30px;
     line-height: 30px;
   }
+
+  .about-spice-title p {
+    font-size: 14px;
+  }  
+
+  .spice-text {
+    font-size: 0.8em;
+  }
+
+  .spice-line-text {
+    font-size: 0.8em;
+  }
 }
 
+@media only screen and (max-width:800px){
+  .syrup-or-curry-switch {
+    /* absoluteの良い回避方法が見つかったら変更 */
+    margin-top: 950px;
+  }
+  
+}
+
+/* SPICE SYRUP */
 /* feature共通サブタイトル */
 .syrup-subtitle {
   display: flex;
@@ -251,17 +291,18 @@
   font-weight: bold;
   font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
 }
+
 .feature {
   font-size: 14px;
 }
+
 .number {
   font-size: 45px;
   line-height: 45px;
 }
 
 .syrup-subtitle-text {
-  display: flex;
-  flex-direction: column-reverse;
+  align-self: flex-end;
 }
 
 .syrup-subtitle-text p{
@@ -298,12 +339,12 @@
     margin-bottom: 30px;
   }
   
-
   .syrup-subtitle-text p {
-    font-size: 20px;
+    font-size: 16.9px;
     text-align: left;
   }
 }
+
 /* feature共通　コンテンツ内容 */
 .feature-flex {
   display: flex;
@@ -321,8 +362,7 @@
 
 .feature-pc-1column {
   width: 32%;
-  display: flex;
-  flex-direction: column-reverse;
+  align-self: flex-end;
 }
 
 .feature-center {
@@ -333,25 +373,9 @@
   margin-bottom: 80px;
 }
 
-.feature-text {
-  font-size: 0.95em;
-}
-
-.feature-line-text {
-  font-weight: bold;
-  font-size: 1.3em;
-  background: linear-gradient(transparent 70%, #F7C600 70%);
-  display: inline-block;
-}
-
-.caption-bold,
-.text-bold {
+.caption-bold {
   font-weight: bold;
   font-size: 1.2em;
-}
-
-.syrup span {
-  font-weight: bold;
 }
 
 @media only screen and (max-width:589px){
@@ -371,21 +395,13 @@
     text-align: left;
   }
 
+  .caption-bold {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+
   .feature-margin-bottom {
     margin-bottom: 40px;
-  }
-
-  .feature-text {
-    font-size: 0.8em;
-  }
-
-  .feature-line-text {
-    font-size: 0.8em;
-  }
-
-  .caption-bold,
-  .text-bold{
-    font-size: 0.8em;
   }
 
   .feature-sp-margin {
@@ -418,6 +434,13 @@
 .about-border-title::after {
   margin-left: 1rem;
 }
+
+@media only screen and (max-width:589px){
+  .about-border-title {
+    font-size: 20px;
+  }
+}
+
 
 /* feature01  */
 .image01-2-sp {
@@ -498,6 +521,74 @@
     width: 100%;
     padding-bottom: 80px;
   }
+}
+
+/* curry */
+.curry-container {
+  width: 65%;
+  margin: 0 auto 60px;
+}
+
+.curry-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.curry-3column-element {
+  width: 30%;
+}
+
+.curry-pc-right,
+.curry-pc-left {
+  width:48.5%;
+}
+
+.curry-font-bold {
+  font-weight: bold;
+}
+
+.curry-margin-bottom {
+  margin-bottom: 30px;
+}
+
+.curry-line-text {
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+.curry-last-margin {
+  margin-bottom: 150px;
+}
+
+@media only screen and (max-width:589px){
+  .curry-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .curry-flex {
+    flex-direction: column;
+  }
+
+  .curry-3column-element, 
+  .curry-pc-right,
+  .curry-pc-left {
+    width: 100%;
+  }
+
+  .curry-line-text {
+    margin-bottom: 10px;
+  }
+
+  .curry-margin-bottom {
+    margin-bottom: 15px;
+  }  
+
+  .curry-last-margin {
+    margin-bottom: 80px;
+  }  
+  
 }
 
 /* ABOUT 終了 */

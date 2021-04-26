@@ -1,12 +1,11 @@
 <h1 class="page-title">ABOUT</h1>
-{% section 'page-title-about' %}
 {% section 'advanced-content-about' %}
-{% section 'advanced-content-about-card' %}
 
-{% section 'syrup-curry-nav' %}
-{% section 'spice-syrup' %}
-{% section 'spice-syrup-feature2' %}
-{% section 'text-columns-cola' %}
+<div class="about-top">
+  <p>たくさんの人に楽しんでもらえる、<br class="br-pc-none">安心で美味しい商品を届けられないか･･･。<br>考え抜いた末、行き着いた答えは、、<br class="br-pc-none">「一人ひとりに作り手になってもらおう！」、<br class="br-pc-none">でした。</p>
+  <p>ハローマイブレンドのシロップキットは<br>世界でただ一つの<br class="br-pc-none">「あなただけのスパイスジンジャーシロップ」<br class="br-pc-none">を作ることができます。</p>
+  <p>ご自身のリラックスタイムに。<br>大切な誰かへのプレゼントに。<br>楽しみ方は作り手の数だけ広がります。<br>あなただけの美味しさを見つけてください。</p>
+</div>
 
 <div class="about-hello">
   <div class="about-hello-card">
@@ -31,22 +30,21 @@
     </div>
   </div>
   <div class="about-hello-image-wrapper">
-    <img class="about-hello-image"
-      src="{{ 'about-card-image-pc.png' | asset_img_url: 'master' }}" alt="">
+    <img class="about-hello-image" src="{{ 'about-card-image-pc.png' | asset_img_url: 'master' }}" alt="">
   </div>
 </div>
 
 
-<div class="syrup-or-curry-switch spice-container">
+<div class="syrup-or-curry-switch tab-container">
   <ul class="tab-group">
     <li id="syrup-tab" class="tab is-active" onClick="tabSwitch('syrup')">スパイスシロップ<br class="br-pc-none">について</li>
     <li id="curry-tab" class="tab" onClick="tabSwitch('curry')">スパイスカレー<br class="br-pc-none">について</li>
   </ul>
 </div>
 
-<div id="syrup" class="switch-contents is-show">
+<div id="syrup" class="switch-contents spice is-show">
   <div class="spice-container">
-    <div class="syrup-title">
+    <div class="about-spice-title">
       <h2>SPICE SYRUP</h2>
       <p>スパイスシロップについて</p>
     </div>
@@ -66,14 +64,14 @@
       <div class="feature-pc-right">
         <img class="image01-2-pc" src="{{ 'about-feature_01-2-pc.png' | asset_img_url: 'master' }}" alt="">
         <img class="image01-2-sp" src="{{ 'about-feature_01-2-sp.png' | asset_img_url: 'master' }}" alt="">
-        <p class="feature-text">ポイントの1つは、あえて少し手間をかけて手づくりをするところにあります。<br>一人でのんびり作るのも、お家やアウトドアで友だちや家族と作るのもオススメです。<br>HELLO
+        <p class="spice-text">ポイントの1つは、あえて少し手間をかけて手づくりをするところにあります。<br>一人でのんびり作るのも、お家やアウトドアで友だちや家族と作るのもオススメです。<br>HELLO
           MY
           BLENDのキットを通して手作りの楽しさを感じてもらえたら嬉しいです。</p>
       </div>
     </div>
     <div class="feature-center">
       <img class="image01-3" src="{{ 'about-feature_01-3.png' | asset_img_url: 'master' }}" alt="">
-      <p class="feature-text feature-sp-margin">自分で作った、作りたての味は格別です！</p>
+      <p class="spice-text feature-sp-margin">自分で作った、作りたての味は格別です！</p>
     </div>
 
     <div class="syrup-subtitle">
@@ -85,21 +83,21 @@
         <p>楽しみ方いろいろ</p>
       </div>
     </div>
-    <p class="feature-line-text">自宅で本格スパイスチャイが楽しめます。</p>
+    <p class="spice-line-text">自宅で本格スパイスチャイが楽しめます。</p>
     <div class="feature-flex feature-margin-bottom">
       <div class="feature-pc-left">
         <img src="{{ 'about-feature_02-1.png' | asset_img_url: 'master' }}" alt="おこもり時間のお供にチャイ">
         <p class="caption-bold">おこもり時間のお供にチャイ。</p>
       </div>
       <div class="feature-pc-right">
-        <p class="feature-text">
-          これから寒くなる季節に、一番オススメの飲み方は紅茶とミルクで作る、<span>本格スパイスチャイ</span>です。スパイスの香りとジンジャーのエキスがギュッと凝縮して、きび佐藤のこっくりとした甘みと合わさり絶妙な味わいが楽しめます。
+        <p class="spice-text">
+          これから寒くなる季節に、一番オススメの飲み方は紅茶とミルクで作る、<span>本格スパイスチャイ</span>です。スパイスの香りとジンジャーのエキスがギュッと凝縮して、きび砂糖のこっくりとした甘みと合わさり絶妙な味わいが楽しめます。
         </p>
-        <p class="feature-text">HELLO MY BLENDのシロップは乾燥ジンジャーを煮出して作ります。</p>
+        <p class="spice-text">HELLO MY BLENDのシロップは乾燥ジンジャーを煮出して作ります。</p>
       </div>
     </div>
 
-    <p class="feature-line-text">身体に優しいホームメイドのクラフトコーラ。</p>
+    <p class="spice-line-text">身体に優しいホームメイドのクラフトコーラ。</p>
     <div class="feature-flex">
       <div class="feature-pc-left">
         <img src="{{ 'about-feature_02-2.png' | asset_img_url: 'master' }}" alt="家でつくるクラフトコーラ">
@@ -110,29 +108,29 @@
         <p class="caption-bold">懐かしい味のコーラフロート。</p>
       </div>
     </div>
-    <p class="feature-text feature-margin-bottom">クローブやシナモン、カルダモンやペッパーなど数種類のスパイスとレモンをきび砂糖と煮出して作るスパイスジンジャーシロップは、<br
+    <p class="spice-text feature-margin-bottom">クローブやシナモン、カルダモンやペッパーなど数種類のスパイスとレモンをきび砂糖と煮出して作るスパイスジンジャーシロップは、<br
         class="br-sp-none">炭酸で割ると、まるで<span>優しい風味のコーラのような味わい</span>になります。<br>レモンをライムに変えたり、アイスをプラスしてコーラフロートにするアレンジもオススメです！
     </p>
 
-    <p class="feature-line-text">オリジナルカクテルのレシピの幅が広がります。</p>
+    <p class="spice-line-text">オリジナルカクテルのレシピの幅が広がります。</p>
     <div class="feature-flex feature-margin-bottom">
       <div class="feature-pc-left">
         <img src="{{ 'about-feature_02-4.png' | asset_img_url: 'master' }}" alt="温まるホットサングリア">
         <p class="caption-bold">温まるホットサングリア。</p>
-        <p class="feature-text">
-          ホットサングリアなど、スパイスを効かせたカクテルにしても美味しく頂けます。赤ワインにオレンジ、りんご、レモンを入れて温め、シロップを少し加えて煮出したらジンジャーが聞いた<span>スパイシーなホットサングリアに！</span>
+        <p class="spice-text">
+          ホットサングリアなど、スパイスを効かせたカクテルにしても美味しく頂けます。赤ワインにオレンジ、りんご、レモンを入れて温め、シロップを少し加えて煮出したらジンジャーが効いた<span>スパイシーなホットサングリアに！</span>
         </p>
       </div>
       <div class="feature-pc-right">
         <img src="{{ 'about-feature_02-5.png' | asset_img_url: 'master' }}" alt="">
         <p class="caption-bold">スパイシーシャンディ・ガフ。</p>
-        <p class="feature-text">
+        <p class="spice-text">
           ビールと合わせると、スパイシーなシャンディガフに。ビールの苦味にジンジャーとレモンの爽やかな香りに甘さがプラスされ、さっぱりとした飲みやすいビアカクテルになります。<span>アウトドアでBBQ料理とも相性抜群です！</span>
         </p>
       </div>
     </div>
 
-    <p class="feature-line-text">ノンアルコールカクテルづくりにも！</p>
+    <p class="spice-line-text">ノンアルコールカクテルづくりにも！</p>
     <div class="feature-flex">
       <div class="feature-pc-left">
         <img src="{{ 'about-feature_02-6.png' | asset_img_url: 'master' }}" alt="">
@@ -141,9 +139,9 @@
         <img src="{{ 'about-feature_02-7.png' | asset_img_url: 'master' }}" alt="">
       </div>
     </div>
-    <p class="text-bold feature-margin-bottom">トロピカルフルーツと合わせたノンアルコールカクテルに。</p>
+    <p class="caption-bold feature-margin-bottom">トロピカルフルーツと合わせたノンアルコールカクテルに。</p>
 
-    <p class="feature-line-text">お料理にも色々使えるんです。</p>
+    <p class="spice-line-text">お料理にも色々使えるんです。</p>
     <div class="feature-flex">
       <div class="feature-pc-left">
         <img src="{{ 'about-feature_02-8.png' | asset_img_url: 'master' }}" alt="">
@@ -154,11 +152,11 @@
         <p class="caption-bold">ポークジンジャーのソースに。</p>
       </div>
     </div>
-    <p class="feature-text feature-margin-bottom">
+    <p class="spice-text feature-margin-bottom">
       カレーの隠し味に入れていただくと、<span>コク旨な絶品スパイスカレー</span>になります。<br>また、お肉料理とも相性が良いので、甘味が広がるポークジンジャーのソースやスペアリブの漬けダレとして使っていただくこともオススメです！
     </p>
 
-    <p class="feature-line-text">もちろんデザートづくりにも。</p>
+    <p class="spice-line-text">もちろんデザートづくりにも。</p>
     <div class="feature-flex">
       <div class="feature-pc-left">
         <img src="{{ 'about-feature_02-10.png' | asset_img_url: 'master' }}" alt="">
@@ -168,7 +166,7 @@
       </div>
     </div>
     <p class="caption-bold">いちじくのコンポートに。</p>
-    <p class="feature-text feature-02-margin">いちじくをスパイスジンジャーシロップと少量のワインで煮詰めると、上品な甘さの大人なデザートになります。</p>
+    <p class="spice-text feature-02-margin">いちじくをスパイスジンジャーシロップと少量のワインで煮詰めると、上品な甘さの大人なデザートになります。</p>
 
     <div class="feature-flex">
       <div class="feature-pc-left">
@@ -180,15 +178,16 @@
         <p class="caption-bold">簡単シャーベットに。</p>
       </div>
     </div>
-    <p class="feature-text feature-margin-bottom">シロップを炭酸で薄めてゼラチンで固めるだけのゼリーもオススメです。<br>氷とシロップを一緒にミキサーにかけると、簡単シャーベットのできあがり！</p>
+    <p class="spice-text feature-margin-bottom">
+      シロップを炭酸で薄めてゼラチンで固めるだけのゼリーもオススメです。<br>氷とシロップを一緒にミキサーにかけると、簡単シャーベットのできあがり！</p>
 
-    <p class="feature-line-text">上級編ー自分だけのレシピの開発もできます。</p>
+    <p class="spice-line-text">上級編ー自分だけのレシピの開発もできます。</p>
     <div class="feature-flex feature-margin-bottom">
       <div class="feature-pc-left">
         <img src="{{ 'about-feature_02-14.png' | asset_img_url: 'master' }}" alt="">
       </div>
       <div class="feature-pc-right">
-        <p class="feature-text">
+        <p class="spice-text">
           レモンを柚子やカボス、ライムなど他の柑橘類に変更して、ローズマリーや唐辛子など、お好みのスパイスをプラスしてアレンジ。<br><span>自分だけのレシピ開発</span>が楽しめます。<br>また、生の生姜をすりおろして加えると、より刺激的な味わいになります。
         </p>
       </div>
@@ -208,13 +207,13 @@
         <img src="{{ 'about-feature_03-1.png' | asset_img_url: 'master' }}" alt="">
       </div>
       <div class="feature-pc-1column">
-        <p class="feature-text">
-          保存料・着色料を使わない、自然な味が特徴です。作り手の愛情がたっぷり入ったオリジナルの味を楽しんで欲しいから、<span>無駄なものは入れず、極力シンプルな配合に拘りました。</span>自分でつくるからこそ、何が入っているか明確で安心です。
+        <p class="spice-text">
+          保存料・着色料を使わない、自然な味が特徴です。作り手の愛情がたっぷり入ったオリジナルの味を楽しんで欲しいから、<span>無駄なものは入れず、極力シンプルな配合にこだわりました。</span>自分でつくるからこそ、何が入っているか明確で安心です。
         </p>
       </div>
     </div>
 
-    <p class="feature-line-text">シロップキット美味しさの理由。</p>
+    <p class="spice-line-text">シロップキット美味しさの理由。</p>
     <div class="feature-flex">
       <div class="feature-pc-left">
         <img src="{{ 'about-feature_03-2.png' | asset_img_url: 'master' }}" alt="">
@@ -225,7 +224,7 @@
         <p class="caption-bold">栄養素が詰まった乾燥ジンジャー</p>
       </div>
     </div>
-    <p class="feature-text feature-margin-bottom">
+    <p class="spice-text feature-margin-bottom">
       厳選したスパイスを独自の配合でブレンド。スパイス初心者さんでも口にしやすいテイストを目指しました。<br>お好みで生ショウガやハーブを追加してアレンジをお楽しみください。</p>
 
     <div class="feature-flex feature-margin-bottom">
@@ -234,7 +233,7 @@
         <p class="caption-bold">ミネラル豊富な国産キビ砂糖。</p>
       </div>
       <div class="feature-pc-right">
-        <p class="feature-text">
+        <p class="spice-text">
           ハローマイブレンドの優しい甘さの決め手となる、きび砂糖は、上白糖よりもコクがあり、ミネラルと旨味成分がぎゅっと詰まっています。<br>スパイスの香りを引き立たせ、風味の相性も抜群です。</p>
       </div>
     </div>
@@ -245,7 +244,7 @@
     <img class="image03-5-pc" src="{{ 'about-feature_03-5-pc.png' | asset_img_url: 'master' }}" alt="HOW TO MAKE">
     <img class="image03-5-sp" src="{{ 'about-feature_03-5-sp.png' | asset_img_url: 'master' }}" alt="HOW TO MAKE">
     <div class="about-youtube feature-margin-bottom">
-      <p>つくり方動画もご参照ください。</p>
+      <p>つくり方参考動画もご参照ください。</p>
       <a class="about-youtube-btn" href="#">YouTube</a>
     </div>
 
@@ -263,14 +262,14 @@
         <img src="{{ 'about-feature_04-1.png' | asset_img_url: 'master' }}" alt="">
       </div>
       <div class="feature-pc-1column">
-        <p class="feature-text">
+        <p class="spice-text">
           ボックス入りのパッケージで<span>ちょっとしたギフトやホームパーティの手土産</span>に最適です。ホームパーティなど、持って行った先で皆んなで作ると一層盛り上がります。
         </p>
-        <p class="feature-text">スパイスを使ったドリンクで乾杯！カレーパーティのお供にいかがですか？</p>
+        <p class="spice-text">スパイスを使ったドリンクで乾杯！カレーパーティのお供にいかがですか？</p>
       </div>
     </div>
 
-    <p class="feature-line-text">スパイスの手づくりギフトボックス</p>
+    <p class="spice-line-text">スパイスの手づくりギフトボックス</p>
     <div class="feature-flex">
       <div class="feature-pc-left">
         <img src="{{ 'about-feature_04-2.png' | asset_img_url: 'master' }}" alt="">
@@ -281,10 +280,10 @@
         <p class="caption-bold">必要な分だけ小分けされたセット。</p>
       </div>
     </div>
-    <p class="feature-text">
+    <p class="spice-text">
       箱を開けると、ジンジャーと緩衝材で使っている、天然松の木毛の香りがふわっと漂います。<br>分かりやすい作り方のレシピブックと、小分けになったスパイス、乾燥ジンジャー、きび砂糖がセットされているので、初めての方でも簡単にチャレンジできます。
     </p>
-    <p class="feature-text feature-margin-bottom">手づくりが好きな方へのプレゼントや、自分で作ったシロップをプレゼントするのもオススメです！</p>
+    <p class="spice-text feature-margin-bottom">手づくりが好きな方へのプレゼントや、自分で作ったシロップをプレゼントするのもオススメです！</p>
 
     <div class="feature-flex">
       <div class="feature-pc-left">
@@ -295,22 +294,22 @@
         <img src="{{ 'about-feature_04-5.png' | asset_img_url: 'master' }}" alt="">
       </div>
     </div>
-    <p class="feature-text feature-margin-bottom">HELLO MY
-      BLENDのスパイスジンジャーシロップキットは、<span>スタンダードサイズ</span>(200ml)と<span>ファミリーサイズ</span>(500ml)の2サイズご用意しております。<br>炭酸で割って召し上がる場合、<span>スタンダードサイズはコップ5杯分</span>、<span>ファミリーサイズは12.5杯分</span>お楽しみ頂けます。<br><span>お料理やデザートにも使っていただく場合はファミリーサイズがオススメです。</span>
+    <p class="spice-text feature-margin-bottom">HELLO MY
+      BLENDのスパイスジンジャーシロップキットは、<span>スタンダードサイズ</span>（200ml）と<span>ファミリーサイズ</span>（500ml）の2サイズご用意しております。<br>炭酸で割って召し上がる場合、<span>スタンダードサイズはコップ5杯分</span>、<span>ファミリーサイズは12.5杯分</span>お楽しみ頂けます。<br><span>お料理やデザートにも使っていただく場合はファミリーサイズがオススメです。</span>
     </p>
 
     <div class="about-border-title">
       VOICES
     </div>
     <div class="about-voices">
-      <p class="feature-text">
+      <p class="spice-text">
         私はシロップを使ってチャイにしました。きび砂糖の甘みが優しく、乾燥ジンジャーから煮出しているからなのか、生姜の成分がぎゅっと凝縮していて、深い味わいだと感じました。<span>ポカポカ温まるのでこれからの時期、嬉しいです！</span>（30代女性）
       </p>
-      <p class="feature-text">クラフトコーラが好きで、地域発のコーラをよく買うのですが自分で作れるのは面白い！と思いHELLO MY
-        BLENDを試してみました。レシピ通りに作って味を見ながら、少し八角と鷹の爪を足して、<span>パンチのある味にアレンジをしてみました</span>。お酒で割って、自宅カクテルを楽しんでいます。（40代男性）</p>
-      <p class="feature-text">キャンプに行った時に家族で作りました！ビールで割ったり、炭酸で割ったりして飲みました。<span>薫製やBBQ料理と相性がよくて美味しかったです</span>。（30代男性）
+      <p class="spice-text">クラフトコーラが好きで、地域発のコーラをよく買うのですが自分で作れるのは面白い！と思いHELLO MY
+        BLENDを試してみました。レシピ通りに作って味をみながら、少し八角と鷹の爪を足して、<span>パンチのある味にアレンジをしてみました</span>。お酒で割って、自宅カクテルを楽しんでいます。（40代男性）</p>
+      <p class="spice-text">キャンプに行った時に家族で作りました！ビールで割ったり、炭酸で割ったりして飲みました。<span>薫製やBBQ料理と相性がよくて美味しかったです</span>。（30代男性）
       </p>
-      <p class="feature-text">
+      <p class="spice-text">
         以前からスパイスに興味があったのですが、なかなか、スパイスを買うきっかけがありませんでした。<span>このセットは小分けにセットされていて、作り方のフローも分かりやすいので、初心者でも簡単に作ることができました</span>。次はアレンジに挑戦してみたいです。（60代女性）
       </p>
     </div>
@@ -318,6 +317,64 @@
   </div>
 </div>
 
-<div id="curry" class="switch-contents">
-  curry
+<div id="curry" class="switch-contents spice">
+  <div class="spice-container">
+    <div class="about-spice-title">
+      <h2>CURRY SPICE MIX</h2>
+      <p>Makuake先行販売！カレースパイスMix</p>
+    </div>
+    <div class="curry-container">
+      <img src="{{ 'about-curry_01.png' | asset_img_url: 'master' }}" alt="カレースパイスMix">
+      <p class="spice-text">Makuake先行でHELLO MY
+        BLENDと相性ぴったりの<span>カレースパイスMix</span>を販売いたします！スパイスカレーのレシピと<span>カレースパイスMix</span>が一緒になったカレーマガジン。</p>
+    </div>
+    <div class="curry-line-text">
+      <p class="spice-line-text">【CURRY SPICE MIX誕生の経緯】</p>
+    </div>
+    <div class="curry-flex curry-margin-bottom">
+      <div class="curry-3column-element">
+        <img src="{{ 'about-curry_02.png' | asset_img_url: 'master' }}" alt="カレースパイスMix">
+        <p class="spice-text">
+          シロップを作る過程でジンジャー・スパイスの出がらしが出来ます。初めは、そのまま捨てていたのですが、サンプルを使ってもらった方々から<span>何か活用できないか？</span>という声を多数いただき、色々と試行錯誤を重ねました。
+        </p>
+      </div>
+      <div class="curry-3column-element">
+        <img src="{{ 'about-curry_03.png' | asset_img_url: 'master' }}" alt="カレースパイスMix">
+        <p class="spice-text">煮出したジンジャー・スパイスを水と一緒にミキサーにかけ、ブレンドしてみると、これまたお料理に<span>何でも使えるスパイスペースト</span>が完成しました！</p>
+      </div>
+      <div class="curry-3column-element">
+        <img src="{{ 'about-curry_04.png' | asset_img_url: 'master' }}" alt="カレースパイスMix">
+        <p class="spice-text">
+          カレーの隠し味として、シロップとともにスパイスペーストを入れていただくと絶品、コクうまカレーに！<br>ミキサーやフードプロセッサーをお持ちの方は、シロップをつくる過程で出がらしを使った、スパイスペースト作りをぜひ試してみてください。
+        </p>
+      </div>
+    </div>
+
+    <div class="curry-container">
+      <div class="curry-flex">
+        <div class="curry-pc-left">
+          <img src="{{ 'about-curry_05.png' | asset_img_url: 'master' }}" alt="">
+        </div>
+        <div class="curry-pc-right">
+          <img src="{{ 'about-curry_06.png' | asset_img_url: 'master' }}" alt="">
+        </div>
+      </div>
+      <p class="spice-text curry-margin-bottom">このような経緯から、今回HELLO MY
+        BLENDと相性抜群の、20種以上のスパイスを混ぜ合わせたカレースパイスMixもご用意することとなりました。隠し味のシロップの量を調節していただくことで辛さの中にも、甘みが深いコクうまな味わいになります。</p>
+      <p class="spice-text curry-font-bold curry-margin-bottom">
+        【カレースパイスMixに入っているスパイスハーブ】クミン・コリアンダー・ターメリック・カルダモン・赤唐辛子・黒胡椒・マスタード・シナモン・クローブ・ローレル・フェンネル・陳皮・オールスパイス・ガラムマサラ・ナツメッグ・セロリシード・フェネグリーク・ディル・ジンジャー・ニンニク・タマネギ
+      </p>
+
+      <div class="curry-flex">
+        <div class="curry-pc-left">
+          <img src="{{ 'about-curry_07.png' | asset_img_url: 'master' }}" alt="">
+        </div>
+        <div class="curry-pc-right">
+          <img src="{{ 'about-curry_08.png' | asset_img_url: 'master' }}" alt="">
+        </div>
+      </div>
+      <p class="spice-text curry-last-margin">
+        奥深いカレーの世界へようこそ。<br><span>カレールーを使わない、スパイスからつくるカレーづくりにチャレンジしてみませんか？</span><br>本格的な味わいだけど、意外と簡単で、ハマります！</p>
+    </div>
+  </div>
 </div>
