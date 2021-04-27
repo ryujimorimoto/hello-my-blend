@@ -74,17 +74,15 @@
 
 .about-hello-card {
   width: 100%;
-}
-
-.about-hello-image-wrapper {
-  width: 90%;
-}
-
-.about-hello-card {
   box-shadow: 0px 8px 14px 8px #00000014;
   border-radius: 10px;
   padding-bottom: 50px;
   background-color: #fff;
+}
+
+.about-hello-image-wrapper {
+  width: 90%;
+  align-self: center;
 }
 
 .about-concept {
@@ -118,26 +116,16 @@
   font-weight: bold;
 }
 
-.about-hello-image-wrapper {
-  align-self: center;
-}
-
 @media only screen and (max-width: 800px) {
   .about-hello {
     flex-direction: column-reverse;
     align-items: center;
-  }
-
-  .about-hello {
     width: 100%;
     position: relative;
   }
 
   .about-hello-card {
     width: 92%;
-  }
-
-  .about-hello-card {
     position: absolute;
     top: 90%;
     z-index: 1;
