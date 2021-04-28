@@ -73,7 +73,7 @@
 }
 
 .about-hello-card {
-  width: 100%;
+  width: 50%;
   box-shadow: 0px 8px 14px 8px #00000014;
   border-radius: 10px;
   padding-bottom: 50px;
@@ -81,7 +81,7 @@
 }
 
 .about-hello-image-wrapper {
-  width: 90%;
+  width: 48%;
   align-self: center;
 }
 
