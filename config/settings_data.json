@@ -104,8 +104,9 @@
           "1494292481350": {
             "type": "logo_social",
             "settings": {
-              "desktop_logo_height": 50,
-              "container_width": 20
+              "logo": "shopify:\/\/shop_images\/logo_yoko.png",
+              "desktop_logo_height": 120,
+              "container_width": 25
             }
           },
           "1494301487049": {
@@ -113,7 +114,7 @@
             "settings": {
               "show_footer_title": true,
               "menu": "footer",
-              "container_width": 20
+              "container_width": 35
             }
           },
           "1494292485313": {
@@ -123,52 +124,38 @@
               "menu": "main-menu",
               "container_width": 20
             }
-          },
-          "1494292487693": {
-            "type": "newsletter",
-            "settings": {
-              "show_footer_title": true,
-              "title": "Sign up and save",
-              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 33
-            }
           }
         },
         "block_order": [
           "1494292481350",
           "1494301487049",
-          "1494292485313",
-          "1494292487693"
+          "1494292485313"
         ],
         "settings": {
-          "show_locale_selector": true,
-          "show_currency_selector": true,
-          "show_currency_flags": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false,
           "show_payment_icons": false,
-          "colorize_payment_icons": false,
-          "show_copyright": false,
-          "copyright_text": ""
+          "colorize_payment_icons": true,
+          "show_copyright": true,
+          "copyright_text": ". All Rights Reserved."
         }
       },
       "collection-template": {
         "type": "collection-template",
         "settings": {
-          "collection_image_enable": true,
-          "collection_image_height": 550,
-          "parallax": true,
-          "description_position": "top",
-          "collection_subnav_style": "inline",
-          "collection_tags_style": "inline",
-          "collection_sort_enable": true,
-          "per_row": 4,
-          "mobile_flush_grid": false
         }
       },
       "product-template": {
         "type": "product-template",
         "settings": {
+          "description_style": "default",
           "social_enable": true,
-          "image_size": "medium"
+          "image_size": "medium",
+          "thumbnail_position": "below",
+          "thumbnail_arrows": true,
+          "enable_video_looping": true,
+          "product_video_style": "muted"
         }
       },
       "article-template": {
@@ -409,7 +396,7 @@
           "blog_show_date": true,
           "blog_show_comments": false,
           "blog_show_author": false,
-          "view_all": true,
+          "view_all": false,
           "divider": false
         }
       },
@@ -458,7 +445,7 @@
           "530857a9-4d06-4674-ab65-a5d7f86810f2": {
             "type": "html",
             "settings": {
-              "code": "<div class=\"toppage-card\">\n  <div class=\"display-sp toppage-header\">\n    <span class=\"toppage-check-icon-sp\">CHECK!<\/span>\n    <a href=\"\/pages\/about-us\" class=\"h4\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/arrow-img.png?v=1617879589\" class=\"img-arrow-sp\"><\/a>\n  <\/div>\n  <div class=\"row\">\n    <div class=\"toppage-card--image\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/DSC00022.jpg?v=1613727650\" alt=\"\">\n    <\/div>\n    <div class=\"toppage-card--text\">\n      <a href=\"\/pages\/about-us\" class=\"display-pc h1\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/arrow-img.png?v=1617879589\" class=\"img-arrow-pc\">\n        <span class=\"toppage-check-icon-pc\">CHECK!<\/span>\n\n      <\/a>\n      <p>\n        HELLO MY BLEND（ハローマイブレンド）は、<br class=\"display-pc\">スパイスとハーブを使ったフードクラフトキットのブランドです。\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>",
+              "code": "<div class=\"toppage-card\">\n  <div class=\"display-sp toppage-header\">\n    <span class=\"toppage-check-icon-sp\">CHECK!<\/span>\n    <a href=\"\/pages\/about-us\" class=\"h4\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/top-min.png?v=1619437217\" class=\"img-arrow-sp\"><\/a>\n  <\/div>\n  <div class=\"row\">\n    <div class=\"toppage-card--image\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/top-min.png?v=1619437217\" alt=\"\">\n    <\/div>\n    <div class=\"toppage-card--text\">\n      <a href=\"\/pages\/about-us\" class=\"display-pc h1\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/arrow-img.png?v=1617879589\" class=\"img-arrow-pc\">\n        <span class=\"toppage-check-icon-pc\">CHECK!<\/span>\n\n      <\/a>\n      <p>\n        HELLO MY BLEND（ハローマイブレンド）は、<br class=\"display-pc\">スパイスとハーブを使ったフードクラフトキットのブランドです。\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>",
               "width": "100%",
               "alignment": "top-middle"
             }
@@ -514,6 +501,174 @@
           "enlarge_text": true,
           "divider": false
         }
+      },
+      "page-title-about": {
+        "type": "page-title-about",
+        "settings": {
+          "text-box": "",
+          "text_align": "center"
+        }
+      },
+      "advanced-content-about": {
+        "type": "advanced-content-about",
+        "blocks": {
+          "aa3c107d-24b3-4ebf-a33e-f328ec7e3591": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/forsns_1.png",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "aa3c107d-24b3-4ebf-a33e-f328ec7e3591"
+        ],
+        "settings": {
+          "full_width": true,
+          "space_around": true
+        }
+      },
+      "advanced-content-about-card": {
+        "type": "advanced-content-about-card",
+        "blocks": {
+          "7b3d7060-7949-4c52-ba00-751c68517f5c": {
+            "type": "html",
+            "settings": {
+              "code": "",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "7b3d7060-7949-4c52-ba00-751c68517f5c"
+        ],
+        "settings": {
+          "full_width": false,
+          "space_around": true
+        }
+      },
+      "syrup-curry-nav": {
+        "type": "syrup-curry-nav",
+        "blocks": {
+          "3bc558bd-68b6-410a-b76b-2c70c44762e2": {
+            "type": "html",
+            "settings": {
+              "code": "<nav class=\"syrup-or-curry-switch\">\n  <ul>\n    <li class=\"nav-active\"><a href=\"#\">スパイスシロップについて<\/a><\/li>\n    <li class=\"nav-not-active\"><a href=\"#\">スパイスカレーについて<\/a><\/li>\n  <\/ul>\n<\/nav>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "3bc558bd-68b6-410a-b76b-2c70c44762e2"
+        ],
+        "settings": {
+          "full_width": false,
+          "space_around": true
+        }
+      },
+      "spice-syrup": {
+        "type": "spice-syrup",
+        "blocks": {
+          "68218a56-615a-4de0-af6e-c8fad387b0bc": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": false,
+              "space_around": true,
+              "code": "<div class=\"syrup\">\n  <div class=\"syrup-title\">\n    <h2>SPICE SYRUP<\/h2>\n    <p>スパイスシロップについて<\/p>\n  <\/div>\n<\/div>"
+            }
+          },
+          "685ca185-6495-453f-8a88-9ce5a5894e6a": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": false,
+              "space_around": true,
+              "code": "<div class=\"syrup\">\n  <div class=\"feature-flex\">\n    <div class=\"feature-pc-left\">\n      <div class=\"syrup-subtitle\">\n        <div class=\"syrup-number\">\n          <p class=\"feature\">Feature<\/p>\n          <p class=\"number\">01<\/p>\n        <\/div>\n        <div class=\"syrup-subtitle-text\">\n          <p>手づくりの楽しさ<\/p>\n        <\/div>\n      <\/div>\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0532\/7703\/2640\/files\/00268.00_01_47_06._010.png?v=1618795319\" alt=\"\">\n    <\/div>\n    <div class=\"feature-pc-right\">\n      <img class=\"image01\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0532\/7703\/2640\/files\/menu3.jpg?v=1618386759\" alt=\"\">\n      <p>ポイントの1つは、あえて少し手間をかけて手づくりをするところにあります。<br>一人でのんびり作るのも、お家やアウトドアで友だちや家族と作るのもオススメです。<br>HELLO MY\n        BLENDのキットを通して手作りの楽しさを感じてもらえたら嬉しいです。<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"feature-center\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0532\/7703\/2640\/files\/menu3.jpg?v=1618386759\" alt=\"\">\n    <p>自分で作った、作りたての味は格別です！<\/p>\n  <\/div>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "68218a56-615a-4de0-af6e-c8fad387b0bc",
+          "685ca185-6495-453f-8a88-9ce5a5894e6a"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false,
+          "overlaid_header": true
+        }
+      },
+      "spice-syrup-feature2": {
+        "type": "spice-syrup-feature2",
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false,
+          "overlaid_header": true
+        }
+      },
+      "text-columns-cola": {
+        "type": "text-columns-cola",
+        "settings": {
+          "title": "",
+          "align_text": "center",
+          "divider": false
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "page-contact-template-0": {
+            "type": "contact-form",
+            "settings": {
+              "title": "",
+              "show_phone": true,
+              "narrow_column": true
+            }
+          }
+        },
+        "block_order": [
+          "page-contact-template-0"
+        ],
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": true,
+          "overlaid_header": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like",
+          "related_count": 3
+        }
+      },
+      "product-collection-links": {
+        "type": "product-collection-links",
+        "settings": {
+          "collection_links_enable": true
+        }
+      },
+      "16196666156dab11a8": {
+        "type": "advanced-content",
+        "blocks": {
+          "16196666156dab11a8-1": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"text-center top_page--about_us\" style=\"background-color: #fff;margin-top: -50px;\">\n\n<a href=\"\/blogs\/%E3%83%AC%E3%82%B7%E3%83%94\" class=\"btn text-link\">View More<\/a>\n\n<\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "16196666156dab11a8-1"
+        ],
+        "settings": {
+          "full_width": false,
+          "space_around": true
+        }
       }
     },
     "content_for_index": [
@@ -528,6 +683,7 @@
       "161788522227920851",
       "1499790633921",
       "1611293707ea6d294a",
+      "16196666156dab11a8",
       "16115545459fbcbb47"
     ]
   },
