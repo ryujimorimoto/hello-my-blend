@@ -235,6 +235,11 @@
   line-height: 30px;
 }
 
+@media only screen and (max-width: 589px) {
+  .spice p {
+    line-height: 18px;
+  }
+}
 .spice-text {
   font-size: 0.95em;
 }
@@ -265,7 +270,7 @@
   }
 
   .spice-line-text {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 
@@ -348,6 +353,12 @@
   .syrup-subtitle-text p {
     font-size: 16.9px;
     text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .syrup-subtitle-text p {
+    line-height: 48px;
   }
 }
 
