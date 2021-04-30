@@ -396,7 +396,7 @@
           "blog_show_date": true,
           "blog_show_comments": false,
           "blog_show_author": false,
-          "view_all": true,
+          "view_all": false,
           "divider": false
         }
       },
@@ -445,7 +445,7 @@
           "530857a9-4d06-4674-ab65-a5d7f86810f2": {
             "type": "html",
             "settings": {
-              "code": "<div class=\"toppage-card\">\n  <div class=\"display-sp toppage-header\">\n    <span class=\"toppage-check-icon-sp\">CHECK!<\/span>\n    <a href=\"\/pages\/about-us\" class=\"h4\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/arrow-img.png?v=1617879589\" class=\"img-arrow-sp\"><\/a>\n  <\/div>\n  <div class=\"row\">\n    <div class=\"toppage-card--image\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/DSC00022.jpg?v=1613727650\" alt=\"\">\n    <\/div>\n    <div class=\"toppage-card--text\">\n      <a href=\"\/pages\/about-us\" class=\"display-pc h1\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/arrow-img.png?v=1617879589\" class=\"img-arrow-pc\">\n        <span class=\"toppage-check-icon-pc\">CHECK!<\/span>\n\n      <\/a>\n      <p>\n        HELLO MY BLEND（ハローマイブレンド）は、<br class=\"display-pc\">スパイスとハーブを使ったフードクラフトキットのブランドです。\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>",
+              "code": "<div class=\"toppage-card\">\n  <div class=\"display-sp toppage-header\">\n    <span class=\"toppage-check-icon-sp\">CHECK!<\/span>\n    <a href=\"\/pages\/about-us\" class=\"h4\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/top-min.png?v=1619437217\" class=\"img-arrow-sp\"><\/a>\n  <\/div>\n  <div class=\"row\">\n    <div class=\"toppage-card--image\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/top-min.png?v=1619437217\" alt=\"\">\n    <\/div>\n    <div class=\"toppage-card--text\">\n      <a href=\"\/pages\/about-us\" class=\"display-pc h1\">5分でわかるHELLO MY BLEND<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/1947\/6163\/files\/arrow-img.png?v=1617879589\" class=\"img-arrow-pc\">\n        <span class=\"toppage-check-icon-pc\">CHECK!<\/span>\n\n      <\/a>\n      <p>\n        HELLO MY BLEND（ハローマイブレンド）は、<br class=\"display-pc\">スパイスとハーブを使ったフードクラフトキットのブランドです。\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>",
               "width": "100%",
               "alignment": "top-middle"
             }
@@ -649,6 +649,26 @@
         "settings": {
           "collection_links_enable": true
         }
+      },
+      "16196666156dab11a8": {
+        "type": "advanced-content",
+        "blocks": {
+          "16196666156dab11a8-1": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"text-center top_page--about_us\" style=\"background-color: #fff;margin-top: -50px;\">\n\n<a href=\"\/blogs\/%E3%83%AC%E3%82%B7%E3%83%94\" class=\"btn text-link\">View More<\/a>\n\n<\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "16196666156dab11a8-1"
+        ],
+        "settings": {
+          "full_width": false,
+          "space_around": true
+        }
       }
     },
     "content_for_index": [
@@ -663,6 +683,7 @@
       "161788522227920851",
       "1499790633921",
       "1611293707ea6d294a",
+      "16196666156dab11a8",
       "16115545459fbcbb47"
     ]
   },

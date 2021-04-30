@@ -218,3 +218,10 @@
 .items-title {
   margin: 50px auto;
 }
+.background-media-text__text .subtitle {
+  letter-spacing: 0.03em !important;
+}
+
+.background-media-text__text p.subtitle {
+  margin-bottom: -13px;
+}
