@@ -51,7 +51,9 @@ const TopPage_FirstView = `
 
 function insertAboutUs(CustomHTML_AboutUs){
   console.log("insert");
-  document.getElementById("custom_html--about_us").innerHTML = CustomHTML_AboutUs;
+  if(document.getElementById("custom_html--about_us") !=  null ){
+    document.getElementById("custom_html--about_us").innerHTML = CustomHTML_AboutUs;
+  }
 }
 function h2AddClassName(className){
   let h2_element = document.getElementsByTagName("h2");
@@ -60,7 +62,10 @@ function h2AddClassName(className){
   }
 }
 function firstviewImage(){
+  if(document.getElementById("firstview_image") !=  null ){
+
   document.getElementById("firstview_image").innerHTML = TopPage_FirstView;
+  }
 }
 document.addEventListener("load", insertAboutUs(CustomHTML_AboutUs));
 document.addEventListener("load", h2AddClassName("subtitle"));
